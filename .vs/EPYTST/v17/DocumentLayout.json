@@ -1,77 +1,77 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\",
+  "WorkspaceRootPath": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\archivemanagementsystem\\project\\technicalsessiontracker\\epytst.api\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\archivemanagementsystem\\project\\technicalsessiontracker\\epytst.api\\views\\userinformation\\getskillbyusercode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\views\\userinformation\\getskillbyusercode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\archivemanagementsystem\\project\\technicalsessiontracker\\epytst.api\\contollers\\loginuser\\userinformationskillmapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\contollers\\loginuser\\userinformationskillmapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15AAD821-C7A2-481C-B2E2-BCD3AF092A19}|EPYTST.Application\\EPYTST.Application.csproj|c:\\users\\farhan.sakib\\desktop\\archivemanagementsystem\\project\\technicalsessiontracker\\epytst.application\\services\\reportapi\\skilllevelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15AAD821-C7A2-481C-B2E2-BCD3AF092A19}|EPYTST.Application\\EPYTST.Application.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.application\\services\\reportapi\\skilllevelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15AAD821-C7A2-481C-B2E2-BCD3AF092A19}|EPYTST.Application\\EPYTST.Application.csproj|solutionrelative:epytst.application\\services\\reportapi\\skilllevelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\archivemanagementsystem\\project\\technicalsessiontracker\\epytst.api\\contollers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\views\\userinformation\\getskillbyusercode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\views\\userinformation\\getskillbyusercode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\contollers\\loginuser\\userinformationskillmapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\contollers\\loginuser\\userinformationskillmapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\contollers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\contollers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\archivemanagementsystem\\project\\technicalsessiontracker\\epytst.api\\views\\home\\myprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\views\\home\\myprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\views\\home\\myprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\archivemanagementsystem\\project\\technicalsessiontracker\\epytst.api\\contollers\\skillapi\\skillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\contollers\\skillapi\\skillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\contollers\\skillapi\\skillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\archivemanagementsystem\\project\\technicalsessiontracker\\epytst.api\\contollers\\userinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\contollers\\userinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\contollers\\userinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\archivemanagementsystem\\project\\technicalsessiontracker\\epytst.api\\contollers\\skillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\contollers\\skillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\contollers\\skillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15AAD821-C7A2-481C-B2E2-BCD3AF092A19}|EPYTST.Application\\EPYTST.Application.csproj|c:\\users\\farhan.sakib\\desktop\\archivemanagementsystem\\project\\technicalsessiontracker\\epytst.application\\services\\reportapi\\userinformationskillmapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15AAD821-C7A2-481C-B2E2-BCD3AF092A19}|EPYTST.Application\\EPYTST.Application.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.application\\services\\reportapi\\userinformationskillmapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15AAD821-C7A2-481C-B2E2-BCD3AF092A19}|EPYTST.Application\\EPYTST.Application.csproj|solutionrelative:epytst.application\\services\\reportapi\\userinformationskillmapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\archivemanagementsystem\\project\\technicalsessiontracker\\epytst.api\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\archivemanagementsystem\\project\\technicalsessiontracker\\epytst.api\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{615A5427-EC5B-4C2F-8BD4-99F79C115256}|EPYTST.Infrastructure\\EPYTST.Infrastructure.csproj|c:\\users\\farhan.sakib\\desktop\\archivemanagementsystem\\project\\technicalsessiontracker\\epytst.infrastructure\\data\\dappercrudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{615A5427-EC5B-4C2F-8BD4-99F79C115256}|EPYTST.Infrastructure\\EPYTST.Infrastructure.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.infrastructure\\data\\dappercrudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{615A5427-EC5B-4C2F-8BD4-99F79C115256}|EPYTST.Infrastructure\\EPYTST.Infrastructure.csproj|solutionrelative:epytst.infrastructure\\data\\dappercrudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15AAD821-C7A2-481C-B2E2-BCD3AF092A19}|EPYTST.Application\\EPYTST.Application.csproj|c:\\users\\farhan.sakib\\desktop\\archivemanagementsystem\\project\\technicalsessiontracker\\epytst.application\\services\\reportapi\\skillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15AAD821-C7A2-481C-B2E2-BCD3AF092A19}|EPYTST.Application\\EPYTST.Application.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.application\\services\\reportapi\\skillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15AAD821-C7A2-481C-B2E2-BCD3AF092A19}|EPYTST.Application\\EPYTST.Application.csproj|solutionrelative:epytst.application\\services\\reportapi\\skillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\archivemanagementsystem\\project\\technicalsessiontracker\\epytst.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15AAD821-C7A2-481C-B2E2-BCD3AF092A19}|EPYTST.Application\\EPYTST.Application.csproj|c:\\users\\farhan.sakib\\desktop\\archivemanagementsystem\\project\\technicalsessiontracker\\epytst.application\\services\\reportapi\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15AAD821-C7A2-481C-B2E2-BCD3AF092A19}|EPYTST.Application\\EPYTST.Application.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.application\\services\\reportapi\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15AAD821-C7A2-481C-B2E2-BCD3AF092A19}|EPYTST.Application\\EPYTST.Application.csproj|solutionrelative:epytst.application\\services\\reportapi\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\archivemanagementsystem\\project\\technicalsessiontracker\\epytst.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\archivemanagementsystem\\project\\technicalsessiontracker\\epytst.api\\views\\userinformation\\getuserlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\views\\userinformation\\getuserlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\views\\userinformation\\getuserlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -82,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,39 +90,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UserInformationSkillMapController.cs",
-              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Contollers\\LoginUser\\UserInformationSkillMapController.cs",
+              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Contollers\\LoginUser\\UserInformationSkillMapController.cs",
               "RelativeDocumentMoniker": "EPYTST.API\\Contollers\\LoginUser\\UserInformationSkillMapController.cs",
-              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Contollers\\LoginUser\\UserInformationSkillMapController.cs",
+              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Contollers\\LoginUser\\UserInformationSkillMapController.cs",
               "RelativeToolTip": "EPYTST.API\\Contollers\\LoginUser\\UserInformationSkillMapController.cs",
               "ViewState": "AgIAAGsAAAAAAAAAAAAewIEAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T10:57:28.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-24T10:57:28.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "SkillLevelService.cs",
-              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.Application\\Services\\ReportAPI\\SkillLevelService.cs",
+              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.Application\\Services\\ReportAPI\\SkillLevelService.cs",
               "RelativeDocumentMoniker": "EPYTST.Application\\Services\\ReportAPI\\SkillLevelService.cs",
-              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.Application\\Services\\ReportAPI\\SkillLevelService.cs",
+              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.Application\\Services\\ReportAPI\\SkillLevelService.cs",
               "RelativeToolTip": "EPYTST.Application\\Services\\ReportAPI\\SkillLevelService.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAIAwwGoAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAIAwwGIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-23T09:28:12.489Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Views\\Shared\\_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "EPYTST.API\\Views\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeToolTip": "EPYTST.API\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAALoAAAAAAAAAAAAewMUAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-23T06:15:10.922Z",
               "EditorCaption": ""
@@ -131,139 +130,129 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Contollers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Contollers\\HomeController.cs",
               "RelativeDocumentMoniker": "EPYTST.API\\Contollers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Contollers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Contollers\\HomeController.cs",
               "RelativeToolTip": "EPYTST.API\\Contollers\\HomeController.cs",
               "ViewState": "AgIAABIAAAAAAAAAAIAwwB4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T10:50:19.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-24T10:50:19.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GetSkillByUserCode.cshtml",
-              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Views\\UserInformation\\GetSkillByUserCode.cshtml",
+              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\UserInformation\\GetSkillByUserCode.cshtml",
               "RelativeDocumentMoniker": "EPYTST.API\\Views\\UserInformation\\GetSkillByUserCode.cshtml",
-              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Views\\UserInformation\\GetSkillByUserCode.cshtml",
+              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\UserInformation\\GetSkillByUserCode.cshtml",
               "RelativeToolTip": "EPYTST.API\\Views\\UserInformation\\GetSkillByUserCode.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-24T10:44:45.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-24T10:44:45.428Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "MyProfile.cshtml",
-              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Views\\Home\\MyProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\Home\\MyProfile.cshtml",
               "RelativeDocumentMoniker": "EPYTST.API\\Views\\Home\\MyProfile.cshtml",
-              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Views\\Home\\MyProfile.cshtml",
+              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\Home\\MyProfile.cshtml",
               "RelativeToolTip": "EPYTST.API\\Views\\Home\\MyProfile.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-23T06:32:56.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T06:32:56.425Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "SkillController.cs",
-              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Contollers\\SkillAPI\\SkillController.cs",
+              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Contollers\\SkillAPI\\SkillController.cs",
               "RelativeDocumentMoniker": "EPYTST.API\\Contollers\\SkillAPI\\SkillController.cs",
-              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Contollers\\SkillAPI\\SkillController.cs",
+              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Contollers\\SkillAPI\\SkillController.cs",
               "RelativeToolTip": "EPYTST.API\\Contollers\\SkillAPI\\SkillController.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAIAwwCoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T09:40:57.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T09:40:57.483Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "UserInformationController.cs",
-              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Contollers\\UserInformationController.cs",
+              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Contollers\\UserInformationController.cs",
               "RelativeDocumentMoniker": "EPYTST.API\\Contollers\\UserInformationController.cs",
-              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Contollers\\UserInformationController.cs",
+              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Contollers\\UserInformationController.cs",
               "RelativeToolTip": "EPYTST.API\\Contollers\\UserInformationController.cs",
               "ViewState": "AgIAAGQAAAAAAAAAAAAMwHgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T10:44:20.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-24T10:44:20.039Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "SkillController.cs",
-              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Contollers\\SkillController.cs",
+              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Contollers\\SkillController.cs",
               "RelativeDocumentMoniker": "EPYTST.API\\Contollers\\SkillController.cs",
-              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Contollers\\SkillController.cs",
+              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Contollers\\SkillController.cs",
               "RelativeToolTip": "EPYTST.API\\Contollers\\SkillController.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAewBQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T07:07:01.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T07:07:01.047Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "UserInformationSkillMapService.cs",
-              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.Application\\Services\\ReportAPI\\UserInformationSkillMapService.cs",
+              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.Application\\Services\\ReportAPI\\UserInformationSkillMapService.cs",
               "RelativeDocumentMoniker": "EPYTST.Application\\Services\\ReportAPI\\UserInformationSkillMapService.cs",
-              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.Application\\Services\\ReportAPI\\UserInformationSkillMapService.cs",
+              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.Application\\Services\\ReportAPI\\UserInformationSkillMapService.cs",
               "RelativeToolTip": "EPYTST.Application\\Services\\ReportAPI\\UserInformationSkillMapService.cs",
               "ViewState": "AgIAAE8AAAAAAAAAAAAjwFwAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T06:04:08.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T06:04:08.832Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "EPYTST.API\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "EPYTST.API\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-23T06:35:28.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T06:35:28.739Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "DapperCRUDService.cs",
-              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.Infrastructure\\Data\\DapperCRUDService.cs",
+              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.Infrastructure\\Data\\DapperCRUDService.cs",
               "RelativeDocumentMoniker": "EPYTST.Infrastructure\\Data\\DapperCRUDService.cs",
-              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.Infrastructure\\Data\\DapperCRUDService.cs",
+              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.Infrastructure\\Data\\DapperCRUDService.cs",
               "RelativeToolTip": "EPYTST.Infrastructure\\Data\\DapperCRUDService.cs",
               "ViewState": "AgIAALEAAAAAAAAAAAD4v7oAAAB6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T06:04:08.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T06:04:08.851Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "SkillService.cs",
-              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.Application\\Services\\ReportAPI\\SkillService.cs",
+              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.Application\\Services\\ReportAPI\\SkillService.cs",
               "RelativeDocumentMoniker": "EPYTST.Application\\Services\\ReportAPI\\SkillService.cs",
-              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.Application\\Services\\ReportAPI\\SkillService.cs",
+              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.Application\\Services\\ReportAPI\\SkillService.cs",
               "RelativeToolTip": "EPYTST.Application\\Services\\ReportAPI\\SkillService.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAMwFMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T06:04:08.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T06:04:08.797Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "EPYTST.API\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "EPYTST.API\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAAEEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -273,22 +262,21 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "DepartmentService.cs",
-              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.Application\\Services\\ReportAPI\\DepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.Application\\Services\\ReportAPI\\DepartmentService.cs",
               "RelativeDocumentMoniker": "EPYTST.Application\\Services\\ReportAPI\\DepartmentService.cs",
-              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.Application\\Services\\ReportAPI\\DepartmentService.cs",
+              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.Application\\Services\\ReportAPI\\DepartmentService.cs",
               "RelativeToolTip": "EPYTST.Application\\Services\\ReportAPI\\DepartmentService.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAWwCoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T10:58:44.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-24T10:58:44.768Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "GetUserList.cshtml",
-              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Views\\UserInformation\\GetUserList.cshtml",
+              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\UserInformation\\GetUserList.cshtml",
               "RelativeDocumentMoniker": "EPYTST.API\\Views\\UserInformation\\GetUserList.cshtml",
-              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Views\\UserInformation\\GetUserList.cshtml",
+              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\UserInformation\\GetUserList.cshtml",
               "RelativeToolTip": "EPYTST.API\\Views\\UserInformation\\GetUserList.cshtml",
               "ViewState": "AgIAAFoAAAAAAAAAAAAEwF0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -298,9 +286,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\appsettings.json",
               "RelativeDocumentMoniker": "EPYTST.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\appsettings.json",
               "RelativeToolTip": "EPYTST.API\\appsettings.json",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -310,9 +298,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Program.cs",
               "RelativeDocumentMoniker": "EPYTST.API\\Program.cs",
-              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\Program.cs",
+              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Program.cs",
               "RelativeToolTip": "EPYTST.API\\Program.cs",
               "ViewState": "AgIAAOwAAAAAAAAAAAAQwOIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W9M6EfXbH/o=",
+  "dgSpecHash": "7ssHh/RvDTw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\TechnicalSessionTracker\\EPYTST.API\\EPYTST.API.csproj",
+  "projectFilePath": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\EPYTST.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\farhan.sakib\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\farhan.sakib\\.nuget\\packages\\azure.identity\\1.11.3\\azure.identity.1.11.3.nupkg.sha512",
