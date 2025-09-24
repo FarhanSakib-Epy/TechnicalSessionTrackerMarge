@@ -1,0 +1,105 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+@{
+    var loginUrl = Configuration["ApiSettings:LoginUrl"];
+}
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="container mt-4">
+    <div>
+        <a href="@Url.Action("Create", "Skill")" class="btn btn-primary mb-3 btn-sm">
+            <i class="bi bi-plus-lg"></i> Create New Skill
+        </a>
+    </div>
+    <table id="skillsTable" class="table table-striped table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Skill Name</th>
+                <th>Description</th>
+                <th>Date Added</th>
+                <th>Added By</th>
+                <th>Active?</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be populated here -->
+        </tbody>
+    </table>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    const baseUrl = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(loginUrl));
+
+    $(document).ready(function () {
+        debugger;
+        $.ajax({
+            url: `${baseUrl}api/Skill/Get`, // ✅ Make sure this is your correct API URL
+            method: "GET",
+            success: function (data) {
+                console.log("API Response:", data);
+
+                let tableBody = $("#skillsTable tbody");
+                tableBody.empty();
+
+                data.forEach(skill => {
+                    let row = `<tr>
+                        <td>${skill.skillName}</td>
+                        <td>${skill.description}</td>
+                        <td>${new Date(skill.dateAdded).toLocaleDateString()}</td>
+                        <td>${skill.addedByName}</td>
+                        <td>${skill.isActive ? "Yes" : "No"}</td>
+                        <td>
+                         <a href="/Skill/Edit/${skill.skillId}" class="btn btn-warning btn-sm me-1">Edit</a>
+                          <button class="btn btn-danger btn-sm" onclick="deleteSkill(${skill.skillId})">Delete</button>
+                       </td>
+                    </tr>`;
+                    tableBody.append(row);
+                });
+            },
+            error: function (xhr, status, error) {
+                console.error("API call failed", error);
+                alert("Failed to load skills.");
+            }
+        });
+    });
+
+
+
+            function deleteSkill(id) {
+        if (confirm("Are you sure you want to delete this skill?")) {
+            fetch(`${baseUrl}api/Skill/Delete/${id}`, {
+                method: 'DELETE',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            .then(response => {
+                if (response.ok) {
+                    alert("Skill deleted successfully.");
+                    location.reload(); // or remove row from the table manually
+                } else {
+                    alert("Failed to delete skill.");
+                }
+            })
+            .catch(error => {
+                console.error("Error:", error);
+            });
+        }
+    }
+
+
+    // function editSkill(id) {
+    //     window.location.href = `/Skill/Edit/${id}`;
+    // }
+</script>

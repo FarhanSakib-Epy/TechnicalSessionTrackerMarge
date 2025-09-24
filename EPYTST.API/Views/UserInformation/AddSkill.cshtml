@@ -1,0 +1,151 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+@{
+    var loginUrl = Configuration["ApiSettings:LoginUrl"];
+}
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+@*     <div>
+        <a asp-controller="UserInformation" asp-action="GetSkillByUserCode" class="btn btn-primary mb-3 btn-sm">
+            <i class="bi bi-plus-lg"></i>My Skill List
+        </a>
+    </div> *@
+
+    <div class="col-md-12" style="padding: 25px;">
+        <form id="skillForm" enctype="multipart/form-data" method="post">
+
+            <div class="row mb-3">
+                <!-- Skill -->
+                <div class="col-md-6">
+                    <label for="skillSelect" class="form-label">Select Skill</label>
+                    <select id="skillSelect" class="form-select" name="SkillId" required>
+                        <option value="">-- Select Skill --</option>
+                    </select>
+                </div>
+
+                <!-- Skill Level -->
+                <div class="col-md-6">
+                    <label for="skillLevelSelect" class="form-label">Select Skill Level</label>
+                    <select id="skillLevelSelect" class="form-select" name="SkillLevelId" required>
+                        <option value="">-- Select Skill Level --</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <!-- Certificate Name -->
+                <div class="col-md-6">
+                    <label for="certificateName" class="form-label">Certificate Name</label>
+                    <input type="text" class="form-control" id="certificateName" name="CertificateName">
+                </div>
+
+                <!-- Certificate Path (File Upload) -->
+                <div class="col-md-6">
+                    <label for="certificatePath" class="form-label">Upload Certificate (PDF,Image)</label>
+                    <input type="file" class="form-control" id="certificatePath" name="CertificateFile" accept=".pdf,image/*">
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <!-- Hands-on Experience -->
+                <label for="handsOnExperience" class="form-label">Hands-on Experience</label>
+                <textarea class="form-control" id="handsOnExperience" name="HandsOnExperience" rows="3"></textarea>
+            </div>
+
+            <div class="row mb-3">
+                <!-- From Date -->
+                <div class="col-md-6">
+                    <label for="fromDate" class="form-label">From Date</label>
+                    <input type="date" class="form-control" id="fromDate" name="HandsOnExperienceFromDate">
+                </div>
+
+                <!-- To Date -->
+                <div class="col-md-6">
+                    <label for="toDate" class="form-label">To Date</label>
+                    <input type="date" class="form-control" id="toDate" name="HandsOnExperienceToDate">
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+  </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    const baseUrl = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(loginUrl));
+
+    $(document).ready(function () {
+        debugger;
+          var userCode = localStorage.getItem("userCode");
+
+        $.ajax({
+            url: `${baseUrl}api/Skill/Get`,
+            type: "GET",
+            dataType: "json",
+            success: function (data) {
+                var $select = $('#skillSelect');
+                $.each(data, function (i, skill) {
+                    $select.append($('<option>', {
+                        value: skill.skillId,
+                        text: skill.skillName
+                    }));
+                });
+            },
+            error: function (xhr) {
+                alert("Failed to load skills: " + xhr.statusText);
+            }
+        });
+
+        //Level
+          $.ajax({
+            url: `${baseUrl}api/SkillLevel/Get`,
+            type: "GET",
+            dataType: "json",
+            success: function (data) {
+                var $select = $('#skillLevelSelect');
+                $.each(data, function (i, skill) {
+                    $select.append($('<option>', {
+                        value: skill.skillLevelId,
+                        text: skill.name
+                    }));
+                });
+            },
+            error: function (xhr) {
+                alert("Failed to load skill Level: " + xhr.statusText);
+            }
+        });
+
+        // Skill Upload User base
+        $('#skillForm').submit(function (e) {
+        e.preventDefault();
+
+        var formData = new FormData(this);
+        formData.append('UserCode', userCode);
+
+        $.ajax({
+            url: '/UserInformation/Submit', // or full path if needed
+            type: 'POST',
+            data: formData,
+            processData: false,
+            contentType: false,
+            success: function (response) {
+                alert(response.message || "Submitted successfully!");
+            },
+            error: function (xhr) {
+                alert("Error: " + xhr.responseText);
+            }
+        });
+    });
+
+    });
+</script>

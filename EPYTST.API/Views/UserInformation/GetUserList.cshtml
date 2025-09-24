@@ -1,0 +1,274 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+@{
+    var loginUrl = Configuration["ApiSettings:LoginUrl"];
+}
+<style>
+    /* Make table container scrollable */
+    .table-responsive-sticky {
+        max-height: 400px;
+        overflow-y: auto;
+    }
+
+    /* Sticky header */
+    #userTable thead th {
+        position: sticky;
+        top: 0;
+        background-color: #f8f9fa; /* Bootstrap light gray */
+        z-index: 2;
+    }
+
+        /* Optional: fix the first column */
+        #userTable tbody td:first-child,
+        #userTable thead th:first-child {
+            position: sticky;
+            left: 0;
+            background-color: white;
+            z-index: 1;
+        }
+</style>
+
+
+
+<!-- Button trigger modal -->
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="modalBodyContent">
+                <!-- Skill data will be loaded here -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+      <div class="table-responsive-sticky">
+        <table id="userTable" class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Display Code</th>
+                    <th>Employee Name</th>
+                    <th>Email</th>
+                    <th>Department Name</th>
+                    <th>Active?</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th><input type="text" class="form-control form-control-sm column-filter" data-column="1" placeholder="Search Code"></th>
+                    <th><input type="text" class="form-control form-control-sm column-filter" data-column="2" placeholder="Search Name"></th>
+                    <th><input type="text" class="form-control form-control-sm column-filter" data-column="3" placeholder="Search Email"></th>
+                    <th><input type="text" class="form-control form-control-sm column-filter" data-column="4" placeholder="Search Dept"></th>
+                    <th><input type="text" class="form-control form-control-sm column-filter" data-column="5" placeholder="Yes/No"></th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+      </div>
+
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+       const loginUrl = '@loginUrl';
+       //console.log("Login URL:", loginUrl);
+        //const apiUrl = "https://localhost:44302/api/UserInformationSkillMap/GetUserList";
+
+        const apiUrl = loginUrl + 'api/UserInformationSkillMap/GetUserList';
+
+        $.ajax({
+            url: apiUrl,
+            type: "GET",
+            success: function (data) {
+                const tbody = $("#userTable tbody");
+                tbody.empty();
+
+                if (Array.isArray(data) && data.length > 0) {
+                    data.forEach((user, index) => {
+                        const row = `
+                            <tr>
+                                <td>${index + 1}</td>
+                                <td>${user.userName}</td>
+                                <td>${user.employeeName}</td>
+                                <td>${user.email}</td>
+                                <td>${user.departmentName}</td>
+                                <td>${user.isActive ? "Yes" : "No"}</td>
+                                <td>
+                                    <button class="btn btn-primary skillBtn" data-usercode="${user.userCode}">Skill</button>
+                                </td>
+                            </tr>
+                        `;
+                        tbody.append(row);
+                    });
+                } else {
+                    tbody.append("<tr><td colspan='7'>No data found.</td></tr>");
+                }
+            },
+            error: function (xhr) {
+                console.error("Error fetching user data:", xhr);
+                alert("Failed to fetch data: " + xhr.statusText);
+            }
+        });
+
+        // Handle Skill button click
+        $('#userTable').on('click', '.skillBtn', function () {
+            const userCode = $(this).data('usercode');
+
+            $('#staticBackdropLabel').text(`Skills`);
+            $('#modalBodyContent').html('<p>Loading skill data...</p>');
+
+            const myModal = new bootstrap.Modal(document.getElementById('staticBackdrop'));
+            myModal.show();
+
+             const skillUrl = `${loginUrl}api/UserInformationSkillMap/GetByUserCode?userCode=${userCode}`;
+
+            $.ajax({
+                url: skillUrl,
+                type: "GET",
+                success: function (data) {
+                    if (!data || data.length === 0) {
+                        $('#modalBodyContent').html('<p>No skills found for this user.</p>');
+                        return;
+                    }
+
+                    let content = `
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Skill Name</th>
+                                    <th>Skill Level</th>
+                                    <th>Certificate Name</th>
+                                    <th>Certificate</th>
+                                    <th>Experience</th>
+                                </tr>
+                            </thead>
+                            <tbody>`;
+
+                    data.forEach(skill => {
+                        let certificateDisplay = '';
+
+                        if (skill.certificatePath) {
+                            const webPath = skill.certificatePath.replace('/wwwroot', '');
+                            const ext = webPath.split('.').pop().toLowerCase();
+
+                            if (ext === 'pdf') {
+                                certificateDisplay = `<a href="${webPath}" target="_blank" class="btn btn-sm btn-primary">View PDF</a>`;
+                            } else if (['jpg', 'jpeg', 'png', 'gif', 'bmp'].includes(ext)) {
+                                certificateDisplay = `<a href="${webPath}" target="_blank" class="btn btn-sm btn-primary">View Image</a>`;
+                            } else {
+                                certificateDisplay = `---`;
+                            }
+                        } else {
+                            certificateDisplay = `<span class="text-muted">No File</span>`;
+                        }
+
+                        const experience = (skill.handsOnExperienceFromDate && skill.handsOnExperienceToDate)
+                            ? calculateExperience(skill.handsOnExperienceFromDate, skill.handsOnExperienceToDate)
+                            : 'N/A';
+
+                        content += `
+                            <tr>
+                                <td>${skill.skillName}</td>
+                                <td>${skill.skillLevelName}</td>
+                               <td>${skill.certificateName || '---'}</td>
+                                <td>${certificateDisplay}</td>
+                                <td>${experience}</td>
+                            </tr>`;
+                    });
+
+                    content += `
+                            </tbody>
+                        </table>`;
+
+                    $('#modalBodyContent').html(content);
+                },
+                error: function (xhr) {
+                    console.error("Error fetching skills:", xhr);
+                    $('#modalBodyContent').html('<p class="text-danger">Skill Not Found.</p>');
+                }
+            });
+        });
+
+
+
+       function calculateExperience(fromDateStr, toDateStr) {
+            const from = new Date(fromDateStr);
+            const to = toDateStr ? new Date(toDateStr) : new Date();
+
+            let years = to.getFullYear() - from.getFullYear();
+            let months = to.getMonth() - from.getMonth();
+            let days = to.getDate() - from.getDate();
+
+            if (days < 0) {
+                months--;
+                const prevMonth = new Date(to.getFullYear(), to.getMonth(), 0);
+                days += prevMonth.getDate();
+            }
+
+            if (months < 0) {
+                years--;
+                months += 12;
+            }
+
+            // Calculate remaining hours
+            const totalMs = to - from;
+            const totalHours = Math.floor((totalMs % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+            // Build result string with only non-zero parts
+            const parts = [];
+            if (years > 0) parts.push(`${years} year(s)`);
+            if (months > 0) parts.push(`${months} month(s)`);
+            if (days > 0) parts.push(`${days} day(s)`);
+            if (totalHours > 0) parts.push(`${totalHours} hour(s)`);
+
+            return parts.length > 0 ? parts.join(', ') : '0 hour(s)';
+    }
+
+
+        // Column filtering logic
+       $('.column-filter').on('keyup change', function () {
+            const filters = {};
+            $('.column-filter').each(function () {
+                const colIndex = $(this).data('column');
+                const value = $(this).val().toLowerCase();
+                if (value) {
+                    filters[colIndex] = value;
+                }
+            });
+
+            $('#userTable tbody tr').each(function () {
+                let show = true;
+                for (const colIndex in filters) {
+                    const cellText = $(this).find('td').eq(colIndex).text().toLowerCase();
+                    if (!cellText.includes(filters[colIndex])) {
+                        show = false;
+                        break;
+                    }
+                }
+                $(this).toggle(show);
+            });
+        });
+
+
+
+    });
+</script>

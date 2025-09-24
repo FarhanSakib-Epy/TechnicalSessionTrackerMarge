@@ -1,0 +1,99 @@
+﻿@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    var loginUrl = Configuration["ApiSettings:LoginUrl"]; // from appsettings.json
+}
+
+<div class="container mt-4">
+    <div>
+        <a href="@Url.Action("Create", "SkillLevel")" class="btn btn-primary mb-3 btn-sm">
+            <i class="bi bi-plus-lg"></i>Create New SkillLevel
+        </a>
+    </div>
+    <table id="SkillLevelsTable" class="table table-striped table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>SkillLevel Name</th>
+                <th>Date Added</th>
+                <th>Added By</th>
+                <th>Active?</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be populated here -->
+        </tbody>
+    </table>
+</div>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    // ✅ Global base URL from Razor
+    const baseUrl = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(loginUrl));
+
+    $(document).ready(function () {
+        loadSkillLevels();
+    });
+
+    function loadSkillLevels() {
+        $.ajax({
+            url: `${baseUrl}api/SkillLevel/Get`,
+            method: "GET",
+            success: function (data) {
+                let tableBody = $("#SkillLevelsTable tbody");
+                tableBody.empty();
+
+                if (Array.isArray(data) && data.length > 0) {
+                    data.forEach(SkillLevel => {
+                        const date = SkillLevel.dateAdded ? new Date(SkillLevel.dateAdded).toLocaleDateString() : '---';
+                        const addedBy = SkillLevel.addedByName ?? '---';
+                        const isActive = SkillLevel.isActive ? "Yes" : "No";
+
+                        const row = `<tr>
+                            <td>${SkillLevel.name}</td>
+                            <td>${date}</td>
+                            <td>${addedBy}</td>
+                            <td>${isActive}</td>
+                            <td>
+                                <a href="/SkillLevel/Edit/${SkillLevel.skillLevelId}" class="btn btn-warning btn-sm me-1">Edit</a>
+                                <button class="btn btn-danger btn-sm" onclick="deleteSkillLevel(${SkillLevel.skillLevelId})">Delete</button>
+                            </td>
+                        </tr>`;
+                        tableBody.append(row);
+                    });
+                } else {
+                    tableBody.append(`<tr><td colspan="5" class="text-center">No skill levels found.</td></tr>`);
+                }
+            },
+            error: function (xhr) {
+                console.error("Error loading SkillLevels:", xhr);
+                alert("Failed to load SkillLevels.");
+            }
+        });
+    }
+
+    function deleteSkillLevel(id) {
+        if (confirm("Are you sure you want to delete this SkillLevel?")) {
+            fetch(`${baseUrl}api/SkillLevel/Delete/${id}`, {
+                method: 'DELETE',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            .then(response => {
+                if (response.ok) {
+                    alert("SkillLevel deleted successfully.");
+                    loadSkillLevels(); // Refresh without full page reload
+                } else {
+                    alert("Failed to delete SkillLevel.");
+                }
+            })
+            .catch(error => {
+                console.error("Delete error:", error);
+            });
+        }
+    }
+</script>

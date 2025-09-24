@@ -1,0 +1,69 @@
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.Application\obj\Debug\net8.0\APITracker.Application.csproj.AssemblyReference.cache
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.Application\obj\Debug\net8.0\APITracker.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.Application\obj\Debug\net8.0\APITracker.Application.AssemblyInfoInputs.cache
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.Application\obj\Debug\net8.0\APITracker.Application.AssemblyInfo.cs
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.Application\obj\Debug\net8.0\APITracker.Application.csproj.CoreCompileInputs.cache
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.Application\bin\Debug\net8.0\APITracker.Application.deps.json
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.Application\bin\Debug\net8.0\APITracker.Application.runtimeconfig.json
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.Application\bin\Debug\net8.0\APITracker.Application.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.Application\bin\Debug\net8.0\APITracker.Application.pdb
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.Application\bin\Debug\net8.0\APITracker.Infrastructure.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.Application\bin\Debug\net8.0\APITracker.Infrastructure.pdb
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.Application\obj\Debug\net8.0\APITrack.3CA0D170.Up2Date
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.Application\obj\Debug\net8.0\APITracker.Application.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.Application\obj\Debug\net8.0\refint\APITracker.Application.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.Application\obj\Debug\net8.0\APITracker.Application.pdb
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.Application\obj\Debug\net8.0\APITracker.Application.genruntimeconfig.cache
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.Application\obj\Debug\net8.0\ref\APITracker.Application.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.Application\bin\Debug\net8.0\APITracker.Application.deps.json
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.Application\bin\Debug\net8.0\APITracker.Application.runtimeconfig.json
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.Application\bin\Debug\net8.0\APITracker.Application.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.Application\bin\Debug\net8.0\APITracker.Application.pdb
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.Application\bin\Debug\net8.0\APITracker.Infrastructure.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.Application\bin\Debug\net8.0\APITracker.Infrastructure.pdb
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.Application\obj\Debug\net8.0\APITracker.Application.csproj.AssemblyReference.cache
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.Application\obj\Debug\net8.0\APITracker.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.Application\obj\Debug\net8.0\APITracker.Application.AssemblyInfoInputs.cache
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.Application\obj\Debug\net8.0\APITracker.Application.AssemblyInfo.cs
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.Application\obj\Debug\net8.0\APITracker.Application.csproj.CoreCompileInputs.cache
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.Application\obj\Debug\net8.0\APITrack.3CA0D170.Up2Date
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.Application\obj\Debug\net8.0\APITracker.Application.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.Application\obj\Debug\net8.0\refint\APITracker.Application.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.Application\obj\Debug\net8.0\APITracker.Application.pdb
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.Application\obj\Debug\net8.0\APITracker.Application.genruntimeconfig.cache
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.Application\obj\Debug\net8.0\ref\APITracker.Application.dll
+D:\WorkArea\APITracker\APITracker.Application\bin\Debug\net8.0\APITracker.Application.deps.json
+D:\WorkArea\APITracker\APITracker.Application\bin\Debug\net8.0\APITracker.Application.runtimeconfig.json
+D:\WorkArea\APITracker\APITracker.Application\bin\Debug\net8.0\APITracker.Application.dll
+D:\WorkArea\APITracker\APITracker.Application\bin\Debug\net8.0\APITracker.Application.pdb
+D:\WorkArea\APITracker\APITracker.Application\bin\Debug\net8.0\APITracker.Infrastructure.dll
+D:\WorkArea\APITracker\APITracker.Application\bin\Debug\net8.0\APITracker.Infrastructure.pdb
+D:\WorkArea\APITracker\APITracker.Application\obj\Debug\net8.0\APITracker.Application.csproj.AssemblyReference.cache
+D:\WorkArea\APITracker\APITracker.Application\obj\Debug\net8.0\APITracker.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkArea\APITracker\APITracker.Application\obj\Debug\net8.0\APITracker.Application.AssemblyInfoInputs.cache
+D:\WorkArea\APITracker\APITracker.Application\obj\Debug\net8.0\APITracker.Application.AssemblyInfo.cs
+D:\WorkArea\APITracker\APITracker.Application\obj\Debug\net8.0\APITracker.Application.csproj.CoreCompileInputs.cache
+D:\WorkArea\APITracker\APITracker.Application\obj\Debug\net8.0\APITracker.Application.sourcelink.json
+D:\WorkArea\APITracker\APITracker.Application\obj\Debug\net8.0\APITrack.3CA0D170.Up2Date
+D:\WorkArea\APITracker\APITracker.Application\obj\Debug\net8.0\APITracker.Application.dll
+D:\WorkArea\APITracker\APITracker.Application\obj\Debug\net8.0\refint\APITracker.Application.dll
+D:\WorkArea\APITracker\APITracker.Application\obj\Debug\net8.0\APITracker.Application.pdb
+D:\WorkArea\APITracker\APITracker.Application\obj\Debug\net8.0\APITracker.Application.genruntimeconfig.cache
+D:\WorkArea\APITracker\APITracker.Application\obj\Debug\net8.0\ref\APITracker.Application.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.Application\bin\Debug\net8.0\APITracker.Application.deps.json
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.Application\bin\Debug\net8.0\APITracker.Application.runtimeconfig.json
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.Application\bin\Debug\net8.0\APITracker.Application.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.Application\bin\Debug\net8.0\APITracker.Application.pdb
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.Application\bin\Debug\net8.0\APITracker.Infrastructure.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.Application\bin\Debug\net8.0\APITracker.Infrastructure.pdb
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.Application\obj\Debug\net8.0\APITracker.Application.csproj.AssemblyReference.cache
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.Application\obj\Debug\net8.0\APITracker.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.Application\obj\Debug\net8.0\APITracker.Application.AssemblyInfoInputs.cache
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.Application\obj\Debug\net8.0\APITracker.Application.AssemblyInfo.cs
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.Application\obj\Debug\net8.0\APITracker.Application.csproj.CoreCompileInputs.cache
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.Application\obj\Debug\net8.0\APITrack.3CA0D170.Up2Date
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.Application\obj\Debug\net8.0\APITracker.Application.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.Application\obj\Debug\net8.0\refint\APITracker.Application.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.Application\obj\Debug\net8.0\APITracker.Application.pdb
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.Application\obj\Debug\net8.0\APITracker.Application.genruntimeconfig.cache
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.Application\obj\Debug\net8.0\ref\APITracker.Application.dll

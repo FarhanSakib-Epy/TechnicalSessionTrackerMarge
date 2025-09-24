@@ -1,0 +1,5 @@
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.Application\obj\Debug\net8.0\c.csproj.AssemblyReference.cache
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.Application\obj\Debug\net8.0\c.GeneratedMSBuildEditorConfig.editorconfig
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.Application\obj\Debug\net8.0\c.AssemblyInfoInputs.cache
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.Application\obj\Debug\net8.0\c.AssemblyInfo.cs
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.Application\obj\Debug\net8.0\c.csproj.CoreCompileInputs.cache

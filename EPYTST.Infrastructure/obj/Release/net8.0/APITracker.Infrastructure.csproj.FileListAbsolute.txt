@@ -1,0 +1,15 @@
+D:\WorkArea\APITracker\APITracker.Infrastructure\bin\Release\net8.0\APITracker.Infrastructure.deps.json
+D:\WorkArea\APITracker\APITracker.Infrastructure\bin\Release\net8.0\APITracker.Infrastructure.runtimeconfig.json
+D:\WorkArea\APITracker\APITracker.Infrastructure\bin\Release\net8.0\APITracker.Infrastructure.dll
+D:\WorkArea\APITracker\APITracker.Infrastructure\bin\Release\net8.0\APITracker.Infrastructure.pdb
+D:\WorkArea\APITracker\APITracker.Infrastructure\obj\Release\net8.0\APITracker.Infrastructure.csproj.AssemblyReference.cache
+D:\WorkArea\APITracker\APITracker.Infrastructure\obj\Release\net8.0\APITracker.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkArea\APITracker\APITracker.Infrastructure\obj\Release\net8.0\APITracker.Infrastructure.AssemblyInfoInputs.cache
+D:\WorkArea\APITracker\APITracker.Infrastructure\obj\Release\net8.0\APITracker.Infrastructure.AssemblyInfo.cs
+D:\WorkArea\APITracker\APITracker.Infrastructure\obj\Release\net8.0\APITracker.Infrastructure.csproj.CoreCompileInputs.cache
+D:\WorkArea\APITracker\APITracker.Infrastructure\obj\Release\net8.0\APITracker.Infrastructure.sourcelink.json
+D:\WorkArea\APITracker\APITracker.Infrastructure\obj\Release\net8.0\APITracker.Infrastructure.dll
+D:\WorkArea\APITracker\APITracker.Infrastructure\obj\Release\net8.0\refint\APITracker.Infrastructure.dll
+D:\WorkArea\APITracker\APITracker.Infrastructure\obj\Release\net8.0\APITracker.Infrastructure.pdb
+D:\WorkArea\APITracker\APITracker.Infrastructure\obj\Release\net8.0\APITracker.Infrastructure.genruntimeconfig.cache
+D:\WorkArea\APITracker\APITracker.Infrastructure\obj\Release\net8.0\ref\APITracker.Infrastructure.dll

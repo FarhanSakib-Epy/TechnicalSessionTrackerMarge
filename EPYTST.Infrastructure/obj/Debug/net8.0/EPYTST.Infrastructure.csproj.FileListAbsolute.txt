@@ -1,0 +1,14 @@
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\TechnicalSessionTracker\EPYTST.Infrastructure\bin\Debug\net8.0\EPYTST.Infrastructure.deps.json
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\TechnicalSessionTracker\EPYTST.Infrastructure\bin\Debug\net8.0\EPYTST.Infrastructure.runtimeconfig.json
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\TechnicalSessionTracker\EPYTST.Infrastructure\bin\Debug\net8.0\EPYTST.Infrastructure.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\TechnicalSessionTracker\EPYTST.Infrastructure\bin\Debug\net8.0\EPYTST.Infrastructure.pdb
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\TechnicalSessionTracker\EPYTST.Infrastructure\obj\Debug\net8.0\EPYTST.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\TechnicalSessionTracker\EPYTST.Infrastructure\obj\Debug\net8.0\EPYTST.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\TechnicalSessionTracker\EPYTST.Infrastructure\obj\Debug\net8.0\EPYTST.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\TechnicalSessionTracker\EPYTST.Infrastructure\obj\Debug\net8.0\EPYTST.Infrastructure.AssemblyInfo.cs
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\TechnicalSessionTracker\EPYTST.Infrastructure\obj\Debug\net8.0\EPYTST.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\TechnicalSessionTracker\EPYTST.Infrastructure\obj\Debug\net8.0\EPYTST.Infrastructure.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\TechnicalSessionTracker\EPYTST.Infrastructure\obj\Debug\net8.0\refint\EPYTST.Infrastructure.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\TechnicalSessionTracker\EPYTST.Infrastructure\obj\Debug\net8.0\EPYTST.Infrastructure.pdb
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\TechnicalSessionTracker\EPYTST.Infrastructure\obj\Debug\net8.0\EPYTST.Infrastructure.genruntimeconfig.cache
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\TechnicalSessionTracker\EPYTST.Infrastructure\obj\Debug\net8.0\ref\EPYTST.Infrastructure.dll

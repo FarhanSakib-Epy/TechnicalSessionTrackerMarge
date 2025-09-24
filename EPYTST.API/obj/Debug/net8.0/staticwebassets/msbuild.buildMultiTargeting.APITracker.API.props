@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\APITracker.API.props" />
+</Project>

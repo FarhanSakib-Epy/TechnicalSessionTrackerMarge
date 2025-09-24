@@ -1,0 +1,180 @@
+﻿@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+@{
+    var loginUrl = Configuration["ApiSettings:LoginUrl"];
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+<div class="row" style="padding: 20px;">
+    <div class="col-md-12">
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <label for="skillSelect" class="form-label">Select Skill</label>
+                <select id="skillSelect" class="form-select" style="width: 100%;">
+                    <option value="">-- Select Skill --</option>
+                </select>
+            </div>
+        </div>
+
+        <table id="userTable" class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Display Code</th>
+                    <th>Employee Name</th>
+                    <th>Email</th>
+                    <th>Skill Name</th>
+                    <th>Skill Level Name</th>
+                    <th>Experience Duration</th>
+                    <th>Active?</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th><input type="text" class="form-control form-control-sm column-filter" data-column="1" placeholder="Search Code"></th>
+                    <th><input type="text" class="form-control form-control-sm column-filter" data-column="2" placeholder="Search Name"></th>
+                    <th><input type="text" class="form-control form-control-sm column-filter" data-column="3" placeholder="Search Email"></th>
+                    <th><input type="text" class="form-control form-control-sm column-filter" data-column="4" placeholder="Search Skill"></th>
+                    <th><input type="text" class="form-control form-control-sm column-filter" data-column="5" placeholder="Search Skill Level"></th>
+                    <th><input type="text" class="form-control form-control-sm column-filter" data-column="6" placeholder="Search Experience"></th>
+                    <th><input type="text" class="form-control form-control-sm column-filter" data-column="7" placeholder="Yes/No"></th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+
+<!-- jQuery and Select2 -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<!-- Include Select2 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+<script>
+    $(document).ready(function () {
+        const loginUrl = '@loginUrl';
+        const apiUrl = loginUrl + 'api/UserInformationSkillMap/GetUserBySkillId';
+        const skillDropdownUrl = loginUrl + 'api/Skill/Get';
+
+        // Load skills and initialize Select2
+        $.ajax({
+            url: skillDropdownUrl,
+            type: "GET",
+            success: function (skills) {
+                const skillSelect = $('#skillSelect');
+                skillSelect.empty().append('<option value="">-- Select Skill --</option>');
+
+                skills.forEach(skill => {
+                    skillSelect.append(`<option value="${skill.skillId}">${skill.skillName}</option>`);
+                });
+
+                skillSelect.select2({
+                    placeholder: "-- Select Skill --",
+                    allowClear: true,
+                    width: '100%'
+                });
+            },
+            error: function (xhr) {
+                console.error("Error loading skills:", xhr);
+            }
+        });
+
+        const tbody = $("#userTable tbody");
+            tbody.empty();
+           $.ajax({
+                url: `${apiUrl}?skillId=${0}`,
+                type: "GET",
+                success: function (data) {
+                    if (Array.isArray(data) && data.length > 0) {
+                        data.forEach((user, index) => {
+                            const row = `
+                                <tr>
+                                    <td>${index + 1}</td>
+                                    <td>${user.userName}</td>
+                                    <td>${user.employeeName}</td>
+                                    <td>${user.email}</td>
+                                    <td>${user.skillName}</td>
+                                    <td>${user.skillLeveName}</td>
+                                    <td>${user.experienceDuration}</td>
+                                    <td>${user.isActive ? "Yes" : "No"}</td>
+                                </tr>`;
+                            tbody.append(row);
+                        });
+                    } else {
+                        tbody.append("<tr><td colspan='8'>No users found for this skill.</td></tr>");
+                    }
+                },
+                error: function (xhr) {
+                    console.error("Error fetching user data:", xhr);
+                    alert("Failed to fetch data: " + xhr.statusText);
+                }
+            });
+
+
+        // Fetch user data on skill change
+        $('#skillSelect').on('change', function () {
+            const skillId = $(this).val();
+            const tbody = $("#userTable tbody");
+            tbody.empty();
+
+            if (!skillId) {
+                tbody.append("<tr><td colspan='8'>Please select a skill.</td></tr>");
+                return;
+            }
+
+            $.ajax({
+                url: `${apiUrl}?skillId=${skillId}`,
+                type: "GET",
+                success: function (data) {
+                    if (Array.isArray(data) && data.length > 0) {
+                        data.forEach((user, index) => {
+                            const row = `
+                                <tr>
+                                    <td>${index + 1}</td>
+                                    <td>${user.userName}</td>
+                                    <td>${user.employeeName}</td>
+                                    <td>${user.email}</td>
+                                    <td>${user.skillName}</td>
+                                    <td>${user.skillLeveName}</td>
+                                    <td>${user.experienceDuration}</td>
+                                    <td>${user.isActive ? "Yes" : "No"}</td>
+                                </tr>`;
+                            tbody.append(row);
+                        });
+                    } else {
+                        tbody.append("<tr><td colspan='8'>No users found for this skill.</td></tr>");
+                    }
+                },
+                error: function (xhr) {
+                    console.error("Error fetching user data:", xhr);
+                    alert("Failed to fetch data: " + xhr.statusText);
+                }
+            });
+        });
+
+        // Column filters
+        $('.column-filter').on('keyup change', function () {
+            const filters = {};
+            $('.column-filter').each(function () {
+                const colIndex = $(this).data('column');
+                const val = $(this).val().toLowerCase();
+                if (val) filters[colIndex] = val;
+            });
+
+            $('#userTable tbody tr').each(function () {
+                let show = true;
+                for (const index in filters) {
+                    const cell = $(this).find('td').eq(index).text().toLowerCase();
+                    if (!cell.includes(filters[index])) {
+                        show = false;
+                        break;
+                    }
+                }
+                $(this).toggle(show);
+            });
+        });
+
+    });
+</script>

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\APITracker Testing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{615A5427-EC5B-4C2F-8BD4-99F79C115256}|APITracker.Infrastructure\\APITracker.Infrastructure.csproj|c:\\users\\farhan.sakib\\desktop\\archivemanagementsystem\\project\\apitracker testing\\apitracker.infrastructure\\data\\dappercrudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{615A5427-EC5B-4C2F-8BD4-99F79C115256}|APITracker.Infrastructure\\APITracker.Infrastructure.csproj|solutionrelative:apitracker.infrastructure\\data\\dappercrudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DapperCRUDService.cs",
+              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\APITracker Testing\\APITracker.Infrastructure\\Data\\DapperCRUDService.cs",
+              "RelativeDocumentMoniker": "APITracker.Infrastructure\\Data\\DapperCRUDService.cs",
+              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\ArchiveManagementSystem\\Project\\APITracker Testing\\APITracker.Infrastructure\\Data\\DapperCRUDService.cs",
+              "RelativeToolTip": "APITracker.Infrastructure\\Data\\DapperCRUDService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T07:11:21.07Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

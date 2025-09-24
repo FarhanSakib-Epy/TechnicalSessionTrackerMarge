@@ -1,0 +1,61 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+@{
+    var loginUrl = Configuration["ApiSettings:LoginUrl"];
+}
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div>
+    <div class="container mt-4">
+        <h4>Add New Skill</h4>
+        <div class="mb-3">
+            <label for="skillName" class="form-label">Skill Name</label>
+            <input type="text" id="skillName" class="form-control" required />
+        </div>
+        <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <textarea id="description" class="form-control"></textarea>
+        </div>
+        <button class="btn btn-success" onclick="addSkill()">Submit</button>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+<script>
+    const baseUrl = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(loginUrl));
+
+    function addSkill() {
+        var userCode = localStorage.getItem("userCode");
+
+        const skill = {
+            skillName: $("#skillName").val(),
+            description: $("#description").val(),
+            dateAdded: new Date().toISOString(),
+            addedBy: userCode, // Replace with actual logged-in user ID
+            isActive: true
+        };
+
+        $.ajax({
+            url: `${baseUrl}api/Skill/Add`,
+            method: "POST",
+            contentType: "application/json",
+            data: JSON.stringify(skill),
+            success: function (response) {
+                alert("Skill created successfully!");
+                location.reload(); // Refresh list if needed
+            },
+            error: function (xhr) {
+                console.error(xhr);
+                alert("Error creating skill");
+            }
+        });
+    }
+</script>

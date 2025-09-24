@@ -1,0 +1,366 @@
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\APITracker.API.csproj.AssemblyReference.cache
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\APITracker.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\APITracker.API.AssemblyInfoInputs.cache
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\APITracker.API.AssemblyInfo.cs
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\APITracker.API.csproj.CoreCompileInputs.cache
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\APITracker.API.MvcApplicationPartsAssemblyInfo.cache
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\APITracker.API.MvcApplicationPartsAssemblyInfo.cs
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\appsettings.Development.json
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\appsettings.json
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\APITracker.API.staticwebassets.endpoints.json
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\APITracker.API.exe
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\APITracker.API.deps.json
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\APITracker.API.runtimeconfig.json
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\APITracker.API.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\APITracker.API.pdb
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\Azure.Core.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\Azure.Identity.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\Dapper.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\Dapper.Contrib.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\EntityFramework.SqlServer.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\EntityFramework.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\NLog.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\NLog.Web.AspNetCore.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\System.ClientModel.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\System.CodeDom.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\System.Memory.Data.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\APITracker.Application.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\APITracker.Infrastructure.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\APITracker.Application.pdb
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\bin\Debug\net8.0\APITracker.Infrastructure.pdb
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\scopedcss\bundle\APITracker.API.styles.css
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\staticwebassets.build.json
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\staticwebassets.development.json
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\staticwebassets\msbuild.APITracker.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\staticwebassets\msbuild.APITracker.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\staticwebassets\msbuild.build.APITracker.API.props
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.APITracker.API.props
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.APITracker.API.props
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\staticwebassets.pack.json
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\APITrack.974493AA.Up2Date
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\APITracker.API.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\refint\APITracker.API.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\APITracker.API.pdb
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\APITracker.API.genruntimeconfig.cache
+D:\EPYSLEMSCore\EPYSLEMSCore\EPYSLEMSCore.API\obj\Debug\net8.0\ref\APITracker.API.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\appsettings.Development.json
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\APITracker.API.staticwebassets.endpoints.json
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\appsettings.json
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\APITracker.API.exe
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\APITracker.API.deps.json
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\APITracker.API.runtimeconfig.json
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\APITracker.API.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\APITracker.API.pdb
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\Azure.Core.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\Azure.Identity.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\Dapper.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\Dapper.Contrib.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\EntityFramework.SqlServer.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\EntityFramework.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\NLog.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\NLog.Web.AspNetCore.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\System.ClientModel.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\System.CodeDom.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\System.Memory.Data.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\APITracker.Application.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\APITracker.Infrastructure.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\APITracker.Application.pdb
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\bin\Debug\net8.0\APITracker.Infrastructure.pdb
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\APITracker.API.csproj.AssemblyReference.cache
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\APITracker.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\APITracker.API.AssemblyInfoInputs.cache
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\APITracker.API.AssemblyInfo.cs
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\APITracker.API.csproj.CoreCompileInputs.cache
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\APITracker.API.MvcApplicationPartsAssemblyInfo.cs
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\APITracker.API.MvcApplicationPartsAssemblyInfo.cache
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\scopedcss\bundle\APITracker.API.styles.css
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\staticwebassets.build.json
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\staticwebassets.development.json
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\staticwebassets\msbuild.APITracker.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\staticwebassets\msbuild.APITracker.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\staticwebassets\msbuild.build.APITracker.API.props
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.APITracker.API.props
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.APITracker.API.props
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\staticwebassets.pack.json
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\APITrack.974493AA.Up2Date
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\APITracker.API.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\refint\APITracker.API.dll
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\APITracker.API.pdb
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\APITracker.API.genruntimeconfig.cache
+D:\EPYSLEMSCore\EPYSLEMSCore\APITracker.API\obj\Debug\net8.0\ref\APITracker.API.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\appsettings.json
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\APITracker.API.exe
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\APITracker.API.deps.json
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\APITracker.API.runtimeconfig.json
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\APITracker.API.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\APITracker.API.pdb
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\Azure.Core.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\Azure.Identity.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\Dapper.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\Dapper.Contrib.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\EntityFramework.SqlServer.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\EntityFramework.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\NLog.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\NLog.Web.AspNetCore.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\System.ClientModel.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\System.CodeDom.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\System.Memory.Data.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\APITracker.Application.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\APITracker.Infrastructure.dll
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\APITracker.Application.pdb
+D:\WorkArea\APITracker\APITracker.API\bin\Debug\net8.0\APITracker.Infrastructure.pdb
+D:\WorkArea\APITracker\APITracker.API\obj\Debug\net8.0\APITracker.API.csproj.AssemblyReference.cache
+D:\WorkArea\APITracker\APITracker.API\obj\Debug\net8.0\APITracker.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkArea\APITracker\APITracker.API\obj\Debug\net8.0\APITracker.API.AssemblyInfoInputs.cache
+D:\WorkArea\APITracker\APITracker.API\obj\Debug\net8.0\APITracker.API.AssemblyInfo.cs
+D:\WorkArea\APITracker\APITracker.API\obj\Debug\net8.0\APITracker.API.csproj.CoreCompileInputs.cache
+D:\WorkArea\APITracker\APITracker.API\obj\Debug\net8.0\APITracker.API.MvcApplicationPartsAssemblyInfo.cs
+D:\WorkArea\APITracker\APITracker.API\obj\Debug\net8.0\APITracker.API.MvcApplicationPartsAssemblyInfo.cache
+D:\WorkArea\APITracker\APITracker.API\obj\Debug\net8.0\APITracker.API.sourcelink.json
+D:\WorkArea\APITracker\APITracker.API\obj\Debug\net8.0\staticwebassets.build.json
+D:\WorkArea\APITracker\APITracker.API\obj\Debug\net8.0\staticwebassets.development.json
+D:\WorkArea\APITracker\APITracker.API\obj\Debug\net8.0\staticwebassets\msbuild.APITracker.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\WorkArea\APITracker\APITracker.API\obj\Debug\net8.0\staticwebassets\msbuild.build.APITracker.API.props
+D:\WorkArea\APITracker\APITracker.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.APITracker.API.props
+D:\WorkArea\APITracker\APITracker.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.APITracker.API.props
+D:\WorkArea\APITracker\APITracker.API\obj\Debug\net8.0\staticwebassets.pack.json
+D:\WorkArea\APITracker\APITracker.API\obj\Debug\net8.0\scopedcss\bundle\APITracker.API.styles.css
+D:\WorkArea\APITracker\APITracker.API\obj\Debug\net8.0\APITrack.974493AA.Up2Date
+D:\WorkArea\APITracker\APITracker.API\obj\Debug\net8.0\APITracker.API.dll
+D:\WorkArea\APITracker\APITracker.API\obj\Debug\net8.0\refint\APITracker.API.dll
+D:\WorkArea\APITracker\APITracker.API\obj\Debug\net8.0\APITracker.API.pdb
+D:\WorkArea\APITracker\APITracker.API\obj\Debug\net8.0\APITracker.API.genruntimeconfig.cache
+D:\WorkArea\APITracker\APITracker.API\obj\Debug\net8.0\ref\APITracker.API.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\appsettings.json
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\APITracker.API.staticwebassets.endpoints.json
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\APITracker.API.exe
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\APITracker.API.deps.json
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\APITracker.API.runtimeconfig.json
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\APITracker.API.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\APITracker.API.pdb
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\Dapper.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\Dapper.Contrib.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\EntityFramework.SqlServer.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\EntityFramework.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\NLog.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\NLog.Web.AspNetCore.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\APITracker.Application.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\APITracker.Infrastructure.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\APITracker.Application.pdb
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\bin\Debug\net8.0\APITracker.Infrastructure.pdb
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\obj\Debug\net8.0\APITracker.API.csproj.AssemblyReference.cache
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\obj\Debug\net8.0\APITracker.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\obj\Debug\net8.0\APITracker.API.AssemblyInfoInputs.cache
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\obj\Debug\net8.0\APITracker.API.AssemblyInfo.cs
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\obj\Debug\net8.0\APITracker.API.csproj.CoreCompileInputs.cache
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\obj\Debug\net8.0\APITracker.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\obj\Debug\net8.0\APITracker.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\obj\Debug\net8.0\scopedcss\bundle\APITracker.API.styles.css
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\obj\Debug\net8.0\APITrack.974493AA.Up2Date
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\obj\Debug\net8.0\APITracker.API.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\obj\Debug\net8.0\refint\APITracker.API.dll
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\obj\Debug\net8.0\APITracker.API.pdb
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\obj\Debug\net8.0\APITracker.API.genruntimeconfig.cache
+C:\Users\farhan.sakib\Desktop\ArchiveManagementSystem\Project\APITracker Testing\APITracker.API\obj\Debug\net8.0\ref\APITracker.API.dll

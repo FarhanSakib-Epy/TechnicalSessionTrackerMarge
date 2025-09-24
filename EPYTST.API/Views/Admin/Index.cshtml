@@ -1,0 +1,76 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+            <div class="container-fluid pt-4 px-4">
+                <div class="row g-4">
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                            <i class="fa fa-chart-line fa-3x text-primary"></i>
+                            <div class="ms-3">
+                                <p class="mb-2">Total Skill</p>
+                                <h6 class="mb-0" id="totalSkill">--</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                            <i class="fa fa-chart-bar fa-3x text-primary"></i>
+                            <div class="ms-3">
+                                <p class="mb-2">Total Skill Level</p>
+                                <h6 class="mb-0" id="totalSkillLevel">--</h6>
+                            </div>
+                        </div>
+                    </div>
+              @*       <div class="col-sm-6 col-xl-3">
+                        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                            <i class="fa fa-chart-area fa-3x text-primary"></i>
+                            <div class="ms-3">
+                                <p class="mb-2">Today Revenue</p>
+                                <h6 class="mb-0">$1234</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                            <i class="fa fa-chart-pie fa-3x text-primary"></i>
+                            <div class="ms-3">
+                                <p class="mb-2">Total Revenue</p>
+                                <h6 class="mb-0">$1234</h6>
+                            </div>
+                        </div>
+                    </div> *@
+                </div>
+            </div>
+  
+     
+
+
+
+
+@* <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        debugger;
+        var userJson = '@Html.Raw(ViewBag.User ?? "null")';
+
+        if (userJson && userJson.trim() !== "") {
+            var user = JSON.parse(userJson);
+
+            localStorage.setItem("loggedInUser", JSON.stringify(user));
+            localStorage.setItem("userCode", user.UserCode);
+            localStorage.setItem("userName", user.Name);
+
+            var userName = localStorage.getItem("userName");
+             $("#userNameId").text(userName);
+
+            console.log("User stored in LocalStorage:", user);
+        }
+    });
+</script> *@
+
