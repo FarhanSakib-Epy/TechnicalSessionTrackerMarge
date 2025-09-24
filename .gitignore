@@ -1,0 +1,53 @@
+# Build results
+bin/
+obj/
+
+# VS User-specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Source link JSON (from your error)
+*.sourcelink.json
+
+# Rider project files (optional)
+.idea/
+
+# VS Code settings (optional)
+.vscode/
+
+# Auto-generated packages
+*.nupkg
+*.snupkg
+
+# NuGet packages folder
+packages/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Others
+*.dbmdl
+*.pdb
+*.cache
+*.config
+
+# IIS/ASP.NET
+*.vspscc
+*.vssscc
+_ReSharper*/
+*_ReSharper*/
+*.DotSettings.user
+
+# Deployment
+publish/
