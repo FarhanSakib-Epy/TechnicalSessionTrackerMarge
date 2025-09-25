@@ -18,17 +18,19 @@ namespace EPYTST.API.Contollers.UserInformationSkillMapAPI
         private readonly HttpClient _httpClient;
         private readonly IUserInformationSkillMapService _UserInformationSkillMapService;
         private readonly ISkillLevelService _skillLevelService;
+        private readonly ISkillService _skillService;
         private readonly ILogger<ReportAPIController> _logger;
         private readonly IMemoryCache _cache;
         private static readonly SemaphoreSlim _semaphoreSlim = new SemaphoreSlim(1, 1); //// For restric same cache key access multiple user at a time
 
 
-        public UserInformationSkillMapController(IUserInformationSkillMapService UserInformationSkillMapService, ILogger<ReportAPIController> logger, IMemoryCache cache, ISkillLevelService SkillLevelService, HttpClient httpClient)
+        public UserInformationSkillMapController(IUserInformationSkillMapService UserInformationSkillMapService, ILogger<ReportAPIController> logger, IMemoryCache cache, ISkillLevelService SkillLevelService, ISkillService SkillService, HttpClient httpClient)
         {
             this._UserInformationSkillMapService = UserInformationSkillMapService;
             this._logger = logger;
             this._cache = cache;
             this._skillLevelService = SkillLevelService;
+            this._skillService = SkillService;
             _httpClient = httpClient;
         }
 
@@ -95,6 +97,26 @@ namespace EPYTST.API.Contollers.UserInformationSkillMapAPI
         }
 
 
+
+        [HttpGet("Edit/{id}")]
+        [ProducesResponseType(typeof(UserInformationSkillMap), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> EditUserInformationSkillMap(string Id)
+        {
+            var lst = await _UserInformationSkillMapService.GetUserInformationSkillMapByIdAsync(Id);
+
+            var skill = await _skillService.GetAllAsync();
+            var skillLevel = await _skillLevelService.GetAllAsync();
+            var userInformationSkillMap = new UserInformationSkillMap();
+            userInformationSkillMap = lst;
+            userInformationSkillMap.Skills.AddRange(skill);
+            userInformationSkillMap.SkillLevels.AddRange(skillLevel);
+
+
+            return Ok(userInformationSkillMap);
+        }
+
+
         [HttpGet("GetByUserCode")]
         [ProducesResponseType(typeof(UserInformationSkillMap), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -144,9 +166,6 @@ namespace EPYTST.API.Contollers.UserInformationSkillMapAPI
         }
 
 
-
-
-
         [HttpGet("GetUserBySkillId")]
         [ProducesResponseType(typeof(UserInformationSkillMap), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -157,6 +176,25 @@ namespace EPYTST.API.Contollers.UserInformationSkillMapAPI
 
             return Ok(data);
         }
+
+
+
+
+
+
+        [HttpPost("Update")]
+        [ProducesResponseType(typeof(UserInformationSkillMap), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> UpdateUserInformationSkillMap([FromBody] UserInformationSkillMap UserInformationSkillMap)
+        {
+            UserInformationSkillMap.DateUpdated = DateTime.UtcNow;
+            UserInformationSkillMap.IsActive = true;
+
+            var lst = await _UserInformationSkillMapService.UpdateUserInformationSkillMapAsync(UserInformationSkillMap.UserInformationSkillMapId, UserInformationSkillMap);
+            _cache.Remove(InMemoryCacheKeys.APIReports); //// Remove cache key
+            return Ok(lst);
+        }
+
 
 
 

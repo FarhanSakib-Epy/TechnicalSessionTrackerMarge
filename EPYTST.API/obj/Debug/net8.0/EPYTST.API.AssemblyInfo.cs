@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EPYTST.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e70f012e2fd6f6f829d3886da10fc77005355e3e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91438f107ae19bdce12a2710f4d7bf6fa912d61f")]
 [assembly: System.Reflection.AssemblyProductAttribute("EPYTST.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EPYTST.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

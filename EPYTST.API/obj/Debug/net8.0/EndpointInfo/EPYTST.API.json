@@ -1465,6 +1465,10 @@
                   "UserCode": {
                     "type": "integer",
                     "format": "int32"
+                  },
+                  "UserInformationSkillMapId": {
+                    "type": "integer",
+                    "format": "int32"
                   }
                 }
               },
@@ -1491,6 +1495,9 @@
                   "style": "form"
                 },
                 "UserCode": {
+                  "style": "form"
+                },
+                "UserInformationSkillMapId": {
                   "style": "form"
                 }
               }
@@ -1521,6 +1528,115 @@
         "tags": [
           "UserInformation"
         ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/UserInformation/EditUserInformationSkillMap/{id}": {
+      "get": {
+        "tags": [
+          "UserInformation"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/UserInformation/update": {
+      "post": {
+        "tags": [
+          "UserInformation"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "SkillId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "SkillLevelId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "CertificateName": {
+                    "type": "string"
+                  },
+                  "CertificateFile": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "HandsOnExperience": {
+                    "type": "string"
+                  },
+                  "HandsOnExperienceFromDate": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "HandsOnExperienceToDate": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "UserCode": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "UserInformationSkillMapId": {
+                    "type": "integer",
+                    "format": "int32"
+                  }
+                }
+              },
+              "encoding": {
+                "SkillId": {
+                  "style": "form"
+                },
+                "SkillLevelId": {
+                  "style": "form"
+                },
+                "CertificateName": {
+                  "style": "form"
+                },
+                "CertificateFile": {
+                  "style": "form"
+                },
+                "HandsOnExperience": {
+                  "style": "form"
+                },
+                "HandsOnExperienceFromDate": {
+                  "style": "form"
+                },
+                "HandsOnExperienceToDate": {
+                  "style": "form"
+                },
+                "UserCode": {
+                  "style": "form"
+                },
+                "UserInformationSkillMapId": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -1711,10 +1827,101 @@
             "description": "Internal Server Error"
           }
         }
+      },
+      "post": {
+        "tags": [
+          "UserInformationSkillMap"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserInformationSkillMap"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserInformationSkillMap"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserInformationSkillMap"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserInformationSkillMap"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserInformationSkillMap"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserInformationSkillMap"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
       }
     },
     "/api/UserInformationSkillMap/Delete/{id}": {
       "delete": {
+        "tags": [
+          "UserInformationSkillMap"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserInformationSkillMap"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserInformationSkillMap"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserInformationSkillMap"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api/UserInformationSkillMap/Edit/{id}": {
+      "get": {
         "tags": [
           "UserInformationSkillMap"
         ],
@@ -2332,6 +2539,20 @@
           },
           "skillLevelName": {
             "type": "string",
+            "nullable": true
+          },
+          "skills": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Skill"
+            },
+            "nullable": true
+          },
+          "skillLevels": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SkillLevel"
+            },
             "nullable": true
           }
         },

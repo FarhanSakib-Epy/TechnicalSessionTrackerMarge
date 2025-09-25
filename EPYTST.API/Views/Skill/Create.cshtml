@@ -6,7 +6,6 @@
 @{
     var loginUrl = Configuration["ApiSettings:LoginUrl"];
 }
-
 @{
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
@@ -27,8 +26,6 @@
 </div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-
 <script>
     const baseUrl = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(loginUrl));
 

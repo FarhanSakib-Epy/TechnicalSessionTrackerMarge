@@ -140,6 +140,7 @@
             contentType: false,
             success: function (response) {
                 alert(response.message || "Submitted successfully!");
+                window.location = "/UserInformation/GetSkillByUserCode";
             },
             error: function (xhr) {
                 alert("Error: " + xhr.responseText);

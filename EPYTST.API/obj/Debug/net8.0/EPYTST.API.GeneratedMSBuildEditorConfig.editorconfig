@@ -72,6 +72,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckluZm9ybWF0aW9uXEFkZFNraWxsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/farhan.sakib/Desktop/GitProject/TechnicalSessionTrackerMarge/TechnicalSessionTrackerMarge/EPYTST.API/Views/UserInformation/EditUserInformationSkillMap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckluZm9ybWF0aW9uXEVkaXRVc2VySW5mb3JtYXRpb25Ta2lsbE1hcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/farhan.sakib/Desktop/GitProject/TechnicalSessionTrackerMarge/TechnicalSessionTrackerMarge/EPYTST.API/Views/UserInformation/GetSkillByUserCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckluZm9ybWF0aW9uXEdldFNraWxsQnlVc2VyQ29kZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

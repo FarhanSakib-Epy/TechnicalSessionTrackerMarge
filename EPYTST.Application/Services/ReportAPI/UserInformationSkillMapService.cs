@@ -1,5 +1,6 @@
 ﻿using EPYTST.Application.Entities;
 using EPYTST.Application.Entities.ReportAPI;
+using EPYTST.Application.Entities.UserInformation;
 using EPYTST.Application.Interfaces;
 using EPYTST.Infrastructure.CustomException;
 using EPYTST.Infrastructure.Data;
@@ -97,6 +98,17 @@ namespace EPYTST.Application.Services
             return item;
         }
 
+
+        public async Task<UserInformationSkillMap> GetUserInformationSkillMapByIdAsync(string Id)
+        {
+            string query = "Select * From UserInformationSkillMap Where UserInformationSkillMapId=@Id";
+            var item = await _dbService.GetFirstOrDefaultAsync<UserInformationSkillMap>(query, new { Id }) ??
+                throw new ItemNotFoundException(ErrorKeys.NoRecord);
+
+            return item;
+        }
+
+
         public async Task<bool> UpdateAsync(long Id, UserInformationSkillMap item)
         {
             //item.LoginUserSkillMapId = (int)Id;
@@ -112,6 +124,61 @@ namespace EPYTST.Application.Services
             return nextId;
         }
 
-        
+
+
+        //Check User
+        public async Task<UserInformation> GetUserByUserNameAsync(int userName)
+        {
+            string query = "Select * From UserInformation Where HumanSpiritNo=@userName";
+            var item = await _dbService.GetFirstOrDefaultAsync<UserInformation>(query, new { userName }) ??
+                throw new ItemNotFoundException(ErrorKeys.NoRecord);
+
+            return item;
+        }
+
+
+        public async Task<bool> UpdateUserInformationSkillMapAsync(int Id, UserInformationSkillMap item)
+        {
+
+            ////item.LoginUserSkillMapId = (int)Id;
+            //var savedEntity = await _dbService.SaveEntityAsync(item) ??
+            //     throw new Exception(ErrorKeys.UnsuccesfullInsertUpdate);
+
+            string query = @"
+                    UPDATE UserInformationSkillMap
+                    SET
+                        SkillId = @SkillId,
+                        SkillLevelId = @SkillLevelId,
+                        CertificateName = @CertificateName,
+                        CertificatePath = @CertificatePath,
+                        HandsOnExperience = @HandsOnExperience,
+                        HandsOnExperienceFromDate = @HandsOnExperienceFromDate,
+                        HandsOnExperienceToDate = @HandsOnExperienceToDate,
+                        DateUpdated = GETDATE(),
+                        UpdatedBy = @UpdatedBy
+                    WHERE UserInformationSkillMapId = @Id";
+
+            var parameters = new
+            {
+                Id,
+                item.SkillId,
+                item.SkillLevelId,
+                item.CertificateName,
+                item.CertificatePath,
+                item.HandsOnExperience,
+                item.HandsOnExperienceFromDate,
+                item.HandsOnExperienceToDate,
+                item.UpdatedBy
+            };
+
+            var result = await _dbService.ExecuteAsync(query, parameters);
+
+            if (result <= 0)
+                throw new Exception(ErrorKeys.UnsuccesfullInsertUpdate);
+
+            return true;
+            //return true;
+        }
+
     }
 }

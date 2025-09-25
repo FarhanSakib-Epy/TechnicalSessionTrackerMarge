@@ -85,7 +85,10 @@
                             <td>${certificateDisplay}</td>
                             <td>${item.handsOnExperience ? item.handsOnExperience : '---'}</td>
                             <td>${calculateDuration(item.handsOnExperienceFromDate, item.handsOnExperienceToDate)}</td>
-                            <td><button class="btn btn-danger btn-sm delete-skill" data-id="${item.userInformationSkillMapId}">Delete</button></td>
+                            <td>
+                            <a href="/UserInformation/EditUserInformationSkillMap/${item.userInformationSkillMapId}" class="btn btn-warning btn-sm">Edit</a>
+                            <button class="btn btn-danger btn-sm delete-skill" data-id="${item.userInformationSkillMapId}">Delete</button>
+                            </td>
                         </tr>`;
                         tbody.append(row);
                     });
@@ -151,13 +154,7 @@
                 return parts.length ? parts.join(', ') : '0 hour(s)';
     }
 
-
-
-
-
-
     });
-
 
       $('#skillTable').on('click', '.delete-skill', function () {
         const skillId = $(this).data('id');
@@ -176,6 +173,25 @@
                 }
             });
         }
+    });
+
+
+
+
+      $('#skillTable').on('click', '.edit-skill', function () {
+        const skillId = $(this).data('id');
+
+         $.ajax({
+                url: `${baseUrl}api/UserInformationSkillMap/Edit/${skillId}`,
+                type: 'GET',
+                success: function () {
+                    
+                },
+                error: function (xhr) {
+                    //console.error(xhr);
+                    //alert('Failed to delete skill.');
+                }
+            });
     });
 
 

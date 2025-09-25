@@ -1,0 +1,159 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model EPYTST.Application.Entities.UserInformationSkillMap
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@{
+    var loginUrl = Configuration["ApiSettings:LoginUrl"];
+}
+
+
+
+
+<div class="row">
+    @*     <div>
+        <a asp-controller="UserInformation" asp-action="GetSkillByUserCode" class="btn btn-primary mb-3 btn-sm">
+            <i class="bi bi-plus-lg"></i>My Skill List
+        </a>
+    </div> *@
+
+    <div class="col-md-12" style="padding: 25px;">
+        <form id="UserInformationSkillMapForm" enctype="multipart/form-data" method="post">
+
+            <input hidden type="text" class="form-control" id="UserInformationSkillMapId" name="UserInformationSkillMapId" value="@(Model.UserInformationSkillMapId)" />
+
+            <div class="row mb-3">
+                <!-- Skill -->
+                <div class="col-md-6">
+                    <label for="skillSelect" class="form-label">Select Skill</label>
+                  @*   <select id="skillSelect" class="form-select" name="SkillId" required>
+                        <option value="">-- Select Skill --</option>
+                    </select> *@
+                    <select id="skillSelect" class="form-select" name="SkillId" required>
+                        <option value="">-- Select Skill --</option>
+                        @foreach (var skill in Model.Skills)
+                        {
+                            <option value="@skill.SkillId" @(skill.SkillId == Model.SkillId ? "selected" : "")>
+                                @skill.SkillName
+                            </option>
+                        }
+                    </select>
+                </div>
+
+                <!-- Skill Level -->
+                <div class="col-md-6">
+                    <label for="skillLevelSelect" class="form-label">Select Skill Level</label>
+                   @*  <select id="skillLevelSelect" class="form-select" name="SkillLevelId" required>
+                        <option value="">-- Select Skill Level --</option>
+                    </select> *@
+                    <select id="skillLevelSelect" class="form-select" name="SkillLevelId" required>
+                        <option value="">-- Select Skill Level --</option>
+                        @foreach (var skillLevel in Model.SkillLevels)
+                        {
+                            <option value="@skillLevel.SkillLevelId" @(skillLevel.SkillLevelId == Model.SkillLevelId ? "selected" : "")>
+                                @skillLevel.Name
+                            </option>
+                        }
+                    </select>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <!-- Certificate Name -->
+                <div class="col-md-6">
+                    <label for="certificateName" class="form-label">Certificate Name</label>
+                   @*  <input type="text" class="form-control" id="certificateName" name="CertificateName"> *@
+                    <input type="text" class="form-control" id="certificateName" name="CertificateName" value="@(Model.CertificateName)" />
+                </div>
+
+                <!-- Certificate Path (File Upload) -->
+                <div class="col-md-6">
+                    <label for="certificatePath" class="form-label">Upload Certificate (PDF,Image)</label>
+                   @*  <input type="file" class="form-control" id="certificatePath" name="CertificateFile" accept=".pdf,image/*"> *@
+                    <input type="file" class="form-control" id="certificatePath" name="CertificateFile" value="@(Model.CertificatePath)" accept=".pdf,image/*" />
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <!-- Hands-on Experience -->
+                <label for="handsOnExperience" class="form-label">Hands-on Experience</label>
+               @*  <textarea class="form-control" id="handsOnExperience" name="HandsOnExperience" rows="3"></textarea> *@
+                <textarea class="form-control" id="handsOnExperience" name="HandsOnExperience" rows="3">@Model.HandsOnExperience</textarea>
+            </div>
+
+            <div class="row mb-3">
+                <!-- From Date -->
+                <div class="col-md-6">
+                    <label for="fromDate" class="form-label">From Date</label>
+                    <input type="date" class="form-control" id="fromDate" name="HandsOnExperienceFromDate" value="@(Model.HandsOnExperienceFromDate?.ToString("yyyy-MM-dd"))" />
+                </div>
+
+                <!-- To Date -->
+                <div class="col-md-6">
+                    <label for="toDate" class="form-label">To Date</label>
+                    <input type="date" class="form-control" id="toDate" name="HandsOnExperienceToDate" value="@(Model.HandsOnExperienceToDate?.ToString("yyyy-MM-dd"))" />
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+
+      // Skill Upload User base
+         $('#UserInformationSkillMapForm').submit(function (e) {
+         e.preventDefault();
+            debugger;
+         var formData = new FormData(this);
+         //formData.append('UserCode', userCode);
+
+         $.ajax({
+             url: '/UserInformation/update', // or full path if needed
+             type: 'POST',
+             data: formData,
+             processData: false,
+             contentType: false,
+             success: function (response) {
+                 alert(response.message || "Submitted successfully!");
+             },
+             error: function (xhr) {
+                 //alert("Error: " + xhr.responseText);
+                window.location = "/UserInformation/GetSkillByUserCode";
+             }
+         });
+
+
+     });
+
+
+    });
+
+
+  
+</script>

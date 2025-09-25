@@ -36,5 +36,11 @@ namespace EPYTST.Application.Entities
         [Write(false)]
         public string? SkillLevelName { get; set; }
 
+
+        [Write(false)]
+        public List<Skill> Skills { get; set; } = new List<Skill>();
+        [Write(false)]
+        public List<SkillLevel> SkillLevels { get; set; } = new List<SkillLevel>();
+
     }
 }

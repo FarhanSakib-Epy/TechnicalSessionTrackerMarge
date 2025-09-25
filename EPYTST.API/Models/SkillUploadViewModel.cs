@@ -11,5 +11,8 @@
         public DateTime? HandsOnExperienceToDate { get; set; }
         public int UserCode { get; set; }
 
+        public int? UserInformationSkillMapId { get; set; }
+        
+
     }
 }

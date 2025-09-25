@@ -1,4 +1,6 @@
 ﻿using EPYTST.API.Models;
+using EPYTST.Application.Interfaces;
+using EPYTST.Application.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.Text;
@@ -11,14 +13,15 @@ namespace EPYTST.API.Contollers
         private readonly ILogger<HomeController> _logger;
         private readonly HttpClient _httpClient;
         private readonly string _baseApiUrl;
+        private readonly IUserInformationSkillMapService _userInformationSkillMapService;
 
-
-        public HomeController(ILogger<HomeController> logger, IHttpClientFactory httpClientFactory, IConfiguration configuration)
+        public HomeController(ILogger<HomeController> logger, IHttpClientFactory httpClientFactory, IUserInformationSkillMapService userInformationSkillMapService, IConfiguration configuration)
         {
             _logger = logger;
             _httpClient = httpClientFactory.CreateClient();
             _baseApiUrl = configuration["ApiSettings:LoginUrl"];
             ViewBag.logInUrl = _baseApiUrl;
+            _userInformationSkillMapService = userInformationSkillMapService;
         }
 
         
@@ -46,6 +49,9 @@ namespace EPYTST.API.Contollers
                 Password = logIn.Password
             };
 
+            //check is admin 
+            var isAdminLocal = await _userInformationSkillMapService.GetUserByUserNameAsync(Convert.ToInt32(logIn.UserName));
+
             var jsonContent = new StringContent(
                 JsonSerializer.Serialize(loginRequest),
                 Encoding.UTF8,
@@ -62,6 +68,7 @@ namespace EPYTST.API.Contollers
 
             if (user.UserCode != 0)
             {
+                user.IsAdmin = isAdminLocal.IsAdmin;
                 TempData["User"] = JsonSerializer.Serialize(user);
                 return RedirectToAction("Index", "Admin");
             }
