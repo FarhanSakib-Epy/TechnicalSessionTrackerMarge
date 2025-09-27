@@ -39,6 +39,12 @@ namespace EPYTST.API.Contollers
         [HttpPost]
         public async Task<IActionResult> Index(LogIn logIn)
         {
+            if (logIn.UserName == null || logIn.Password == null)
+            {
+                return View();
+            }
+
+
             //string url = "https://localhost:44302/api/LoginUser/LogIn";
             var url = $"{_baseApiUrl}api/LoginUser/LogIn?username={logIn.UserName}&password={logIn.Password}";
 

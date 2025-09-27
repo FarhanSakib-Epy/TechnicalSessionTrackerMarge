@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\views\\userinformation\\edituserinformationskillmap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\views\\userinformation\\edituserinformationskillmap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\views\\userinformation\\getskillbyusercode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\views\\userinformation\\getskillbyusercode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\views\\userinformation\\addskill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\views\\userinformation\\addskill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\views\\userinformation\\edituserinformationskillmap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\views\\userinformation\\edituserinformationskillmap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\contollers\\userinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,33 +50,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GetSkillByUserCode.cshtml",
               "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\UserInformation\\GetSkillByUserCode.cshtml",
               "RelativeDocumentMoniker": "EPYTST.API\\Views\\UserInformation\\GetSkillByUserCode.cshtml",
               "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\UserInformation\\GetSkillByUserCode.cshtml",
               "RelativeToolTip": "EPYTST.API\\Views\\UserInformation\\GetSkillByUserCode.cshtml",
-              "ViewState": "AgIAAKYAAAAAAAAAAAAAALIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-27T06:30:07.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "EditUserInformationSkillMap.cshtml",
               "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\UserInformation\\EditUserInformationSkillMap.cshtml",
               "RelativeDocumentMoniker": "EPYTST.API\\Views\\UserInformation\\EditUserInformationSkillMap.cshtml",
               "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\UserInformation\\EditUserInformationSkillMap.cshtml",
               "RelativeToolTip": "EPYTST.API\\Views\\UserInformation\\EditUserInformationSkillMap.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACcAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-27T06:28:15.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AddSkill.cshtml",
               "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\UserInformation\\AddSkill.cshtml",
               "RelativeDocumentMoniker": "EPYTST.API\\Views\\UserInformation\\AddSkill.cshtml",
@@ -89,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DetailsUserInformationSkillMap.cshtml",
               "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\UserInformation\\DetailsUserInformationSkillMap.cshtml",
               "RelativeDocumentMoniker": "EPYTST.API\\Views\\UserInformation\\DetailsUserInformationSkillMap.cshtml",
