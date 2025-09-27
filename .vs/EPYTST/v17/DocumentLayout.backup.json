@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\views\\userinformation\\addskill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\views\\userinformation\\addskill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\views\\userinformation\\getskillbyusercode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\views\\userinformation\\getskillbyusercode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\views\\userinformation\\detailsuserinformationskillmap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\views\\userinformation\\detailsuserinformationskillmap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\views\\userinformation\\getskillbyusercode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\views\\userinformation\\getskillbyusercode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\views\\userinformation\\addskill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|solutionrelative:epytst.api\\views\\userinformation\\addskill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3383A36D-E333-43F0-82BD-1FA96163E3BC}|EPYTST.API\\EPYTST.API.csproj|c:\\users\\farhan.sakib\\desktop\\gitproject\\technicalsessiontrackermarge\\technicalsessiontrackermarge\\epytst.api\\views\\userinformation\\edituserinformationskillmap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,13 +50,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "GetSkillByUserCode.cshtml",
               "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\UserInformation\\GetSkillByUserCode.cshtml",
               "RelativeDocumentMoniker": "EPYTST.API\\Views\\UserInformation\\GetSkillByUserCode.cshtml",
               "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\UserInformation\\GetSkillByUserCode.cshtml",
               "RelativeToolTip": "EPYTST.API\\Views\\UserInformation\\GetSkillByUserCode.cshtml",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAmwG8AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-27T06:30:07.558Z",
               "EditorCaption": ""
@@ -76,13 +76,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AddSkill.cshtml",
               "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\UserInformation\\AddSkill.cshtml",
               "RelativeDocumentMoniker": "EPYTST.API\\Views\\UserInformation\\AddSkill.cshtml",
               "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\UserInformation\\AddSkill.cshtml",
               "RelativeToolTip": "EPYTST.API\\Views\\UserInformation\\AddSkill.cshtml",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAHUAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-27T06:27:33.916Z",
               "EditorCaption": ""
@@ -95,7 +95,7 @@
               "RelativeDocumentMoniker": "EPYTST.API\\Views\\UserInformation\\DetailsUserInformationSkillMap.cshtml",
               "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\UserInformation\\DetailsUserInformationSkillMap.cshtml",
               "RelativeToolTip": "EPYTST.API\\Views\\UserInformation\\DetailsUserInformationSkillMap.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-27T06:24:29.124Z",
               "EditorCaption": ""
