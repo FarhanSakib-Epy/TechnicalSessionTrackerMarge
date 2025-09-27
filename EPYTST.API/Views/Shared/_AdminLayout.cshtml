@@ -180,11 +180,22 @@
                       localStorage.setItem("userCode", user.UserCode);
                       localStorage.setItem("userName", user.Name);
                       localStorage.setItem("isAdmin", user.IsAdmin);
+
+                      localStorage.setItem("designation", user.Designation);
+                      localStorage.setItem("departmentName", user.DepartmentName);
+                         
                 }
                 var userName = localStorage.getItem("userName");
                  $("#userNameId").text(userName);
                  $("#nameCell").text(userName);
 
+                         debugger;
+                         var designation = localStorage.getItem("designation");
+                         $("#designationCell").text(designation);
+
+                          var departmentName = localStorage.getItem("departmentName");
+                          $("#departmentNameCell").text(departmentName);
+                            
                  //var userCode = localStorage.getItem("userCode");
                  //$("#codeCell").text(userCode);
                     

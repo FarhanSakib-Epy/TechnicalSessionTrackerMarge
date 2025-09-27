@@ -1263,6 +1263,22 @@
   },
   {
     "ContainingType": "EPYTST.API.Contollers.UserInformationController",
+    "Method": "DetailsUserInformationSkillMap",
+    "RelativePath": "UserInformation/DetailsUserInformationSkillMap/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EPYTST.API.Contollers.UserInformationController",
     "Method": "EditUserInformationSkillMap",
     "RelativePath": "UserInformation/EditUserInformationSkillMap/{id}",
     "HttpMethod": "GET",

@@ -69,6 +69,12 @@ namespace EPYTST.API.Contollers
             if (user.UserCode != 0)
             {
                 user.IsAdmin = isAdminLocal.IsAdmin;
+                //extra
+                user.PhoneNumber = isAdminLocal.PhoneNumber;
+                user.Designation = isAdminLocal.Designation;
+                user.DepartmentName = isAdminLocal.DepartmentName;
+                user.ProfileImagePath = isAdminLocal.ProfileImagePath;
+
                 TempData["User"] = JsonSerializer.Serialize(user);
                 return RedirectToAction("Index", "Admin");
             }

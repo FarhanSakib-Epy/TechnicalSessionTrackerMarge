@@ -1,0 +1,112 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model EPYTST.Application.Entities.UserInformationSkillMap
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@{
+    var loginUrl = Configuration["ApiSettings:LoginUrl"];
+}
+@functions {
+    public string CalculateDuration(DateTime fromDate, DateTime toDate)
+    {
+        if (fromDate > toDate)
+            return "Invalid range";
+
+        int years = toDate.Year - fromDate.Year;
+        int months = toDate.Month - fromDate.Month;
+        int days = toDate.Day - fromDate.Day;
+        int hours = toDate.Hour - fromDate.Hour;
+
+        if (days < 0)
+        {
+            months--;
+            var previousMonth = new DateTime(toDate.Year, toDate.Month, 1).AddDays(-1);
+            days += previousMonth.Day;
+        }
+
+        if (months < 0)
+        {
+            years--;
+            months += 12;
+        }
+
+        if (hours < 0)
+        {
+            days--;
+            hours += 24;
+            if (days < 0)
+            {
+                months--;
+                var previousMonth = new DateTime(toDate.Year, toDate.Month, 1).AddDays(-1);
+                days += previousMonth.Day;
+
+                if (months < 0)
+                {
+                    years--;
+                    months += 12;
+                }
+            }
+        }
+
+        var parts = new List<string>();
+        if (years > 0) parts.Add($"{years} year(s)");
+        if (months > 0) parts.Add($"{months} month(s)");
+        if (days > 0) parts.Add($"{days} day(s)");
+        if (hours > 0) parts.Add($"{hours} hour(s)");
+
+        return parts.Count > 0 ? string.Join(", ", parts) : "0 hour(s)";
+    }
+}
+
+<link href="~/assets/css/bootstrap.min.css" rel="stylesheet" />
+<div class="container mt-4">
+    <table class="table table-bordered table-striped">
+        <tbody>
+            <tr>
+                <td>Skill Name</td>
+                <td>@Model.SkillName</td>
+            </tr>
+            <tr>
+                <td>Skill Level Name</td>
+                <td>@Model.SkillLevelName</td>
+            </tr>
+            <tr>
+                <td>Certificate Name</td>
+                <td>@Model.CertificateName</td>
+            </tr>
+            <tr>
+                <td>Hands On Experience</td>
+                <td>@Model.HandsOnExperience</td>
+            </tr>
+            <tr>
+                <td>Experience From Date</td>
+                <td>@Model.HandsOnExperienceFromDate?.ToString("yyyy-MM-dd")</td>
+            </tr>
+            <tr>
+                <td>Experience To Date</td>
+                <td>@Model.HandsOnExperienceToDate?.ToString("yyyy-MM-dd")</td>
+            </tr>
+            <tr>
+                <td>Duration</td>
+                <td>@CalculateDuration(Model.HandsOnExperienceFromDate ?? DateTime.Now, Model.HandsOnExperienceToDate ?? DateTime.Now)</td>
+            </tr>
+            <tr>
+                @if (!string.IsNullOrEmpty(Model.CertificatePath) && Model.CertificatePath != "/")
+                {
+                    <a href="@Url.Content(Model.CertificatePath)" download class="btn btn-sm btn-primary">
+                        Download Certificate
+                    </a>
+                }
+                else if (Model.CertificatePath == "/")
+                {
+                    <span class="text-muted">No Certificate</span>
+                }
+            </tr>
+        </tbody>
+    </table>
+    <a href="/UserInformation/GetSkillByUserCode" class="btn btn-sm btn-primary">Back To List</a>
+</div>

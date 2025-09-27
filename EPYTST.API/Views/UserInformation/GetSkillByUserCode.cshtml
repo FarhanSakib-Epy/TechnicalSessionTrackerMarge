@@ -11,8 +11,6 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-
-
 <div class="row" style="padding: 10px;">
     <div>
         <a href="@Url.Action("AddSkill", "UserInformation")" class="btn btn-primary btn-sm">
@@ -87,6 +85,7 @@
                             <td>${calculateDuration(item.handsOnExperienceFromDate, item.handsOnExperienceToDate)}</td>
                             <td>
                             <a href="/UserInformation/EditUserInformationSkillMap/${item.userInformationSkillMapId}" class="btn btn-warning btn-sm">Edit</a>
+                             <a href="/UserInformation/DetailsUserInformationSkillMap/${item.userInformationSkillMapId}" class="btn btn-primary btn-sm">Details</a>
                             <button class="btn btn-danger btn-sm delete-skill" data-id="${item.userInformationSkillMapId}">Delete</button>
                             </td>
                         </tr>`;

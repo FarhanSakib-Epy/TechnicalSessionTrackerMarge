@@ -143,11 +143,27 @@ namespace EPYTST.API.Contollers
             userInformationSkillMap.Skills.AddRange(skill);
             userInformationSkillMap.SkillLevels.AddRange(skillLevel);
 
+            return View(lst);
+        }
+
+        [HttpGet("DetailsUserInformationSkillMap/{id}")]
+        public async Task<IActionResult> DetailsUserInformationSkillMap(int id)
+        {
+            var lst = await _userInformationSkillMapService.GetUserInformationSkillMapByIdAsync(id.ToString());
+            var skill = await _skillService.GetAllAsync();
+            var skillLevel = await _skillLevelService.GetAllAsync();
+            var userInformationSkillMap = new UserInformationSkillMap();
+            userInformationSkillMap = lst;
+            userInformationSkillMap.Skills.AddRange(skill);
+            userInformationSkillMap.SkillLevels.AddRange(skillLevel);
+
+            lst.SkillName = lst?.Skills?.SingleOrDefault(x => x.SkillId == lst.SkillId)?.SkillName ?? "";
+            lst.SkillLevelName = lst?.SkillLevels?.SingleOrDefault(x => x.SkillLevelId == lst.SkillLevelId)?.Name ?? "";
 
             return View(lst);
         }
 
-
+        
 
 
 

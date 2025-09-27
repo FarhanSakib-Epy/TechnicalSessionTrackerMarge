@@ -13,7 +13,7 @@
             <div class="col-md-4">
                 <label for="skillSelect" class="form-label">Select Skill</label>
                 <select id="skillSelect" class="form-select" style="width: 100%;">
-                    <option value="">-- Select Skill --</option>
+                    <option value="0">-- Select Skill --</option>
                 </select>
             </div>
         </div>
@@ -64,7 +64,7 @@
             type: "GET",
             success: function (skills) {
                 const skillSelect = $('#skillSelect');
-                skillSelect.empty().append('<option value="">-- Select Skill --</option>');
+                skillSelect.empty().append('<option value="0">-- Select Skill --</option>');
 
                 skills.forEach(skill => {
                     skillSelect.append(`<option value="${skill.skillId}">${skill.skillName}</option>`);
@@ -108,7 +108,8 @@
                 },
                 error: function (xhr) {
                     console.error("Error fetching user data:", xhr);
-                    alert("Failed to fetch data: " + xhr.statusText);
+                   // alert("Failed to fetch data: " + xhr.statusText);
+                   alert("User Not Found For This Skill !");
                 }
             });
 
@@ -149,7 +150,8 @@
                 },
                 error: function (xhr) {
                     console.error("Error fetching user data:", xhr);
-                    alert("Failed to fetch data: " + xhr.statusText);
+                    //alert("Failed to fetch data: " + xhr.statusText);
+                     alert("User Not Found For This Skill !");
                 }
             });
         });

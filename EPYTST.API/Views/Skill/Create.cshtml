@@ -14,14 +14,15 @@
     <div class="container mt-4">
         <h4>Add New Skill</h4>
         <div class="mb-3">
-            <label for="skillName" class="form-label">Skill Name</label>
+            <label for="skillName" class="form-label">Skill Name*</label>
             <input type="text" id="skillName" class="form-control" required />
         </div>
         <div class="mb-3">
             <label for="description" class="form-label">Description</label>
             <textarea id="description" class="form-control"></textarea>
         </div>
-        <button class="btn btn-success" onclick="addSkill()">Submit</button>
+        <button class="btn btn-success btn-sm" onclick="addSkill()">Submit</button>
+        <a href="/Skill" class="btn btn-sm btn-primary">Back To List</a>
     </div>
 </div>
 
@@ -30,7 +31,16 @@
     const baseUrl = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(loginUrl));
 
     function addSkill() {
-        var userCode = localStorage.getItem("userCode");
+       var skillNameCheck = $("#skillName").val();
+
+      if (!skillNameCheck) {
+        alert("Skill Name is required !");
+        return;
+      }
+
+
+
+            var userCode = localStorage.getItem("userCode");
 
         const skill = {
             skillName: $("#skillName").val(),

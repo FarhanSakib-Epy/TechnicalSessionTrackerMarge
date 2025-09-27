@@ -17,7 +17,7 @@
         <input type="hidden" id="SkillLevelId" />
 
         <div class="mb-3">
-            <label for="SkillLevelName" class="form-label">SkillLevel Name</label>
+            <label for="SkillLevelName" class="form-label">Skill Level Name*</label>
             <input type="text" id="SkillLevelName" class="form-control" required />
         </div>
         <div class="form-check mb-3">
@@ -25,7 +25,8 @@
             <label class="form-check-label" for="isActive">Is Active</label>
         </div>
 
-        <button class="btn btn-success" onclick="updateSkillLevel()">Update</button>
+        <button class="btn btn-success btn-sm" onclick="updateSkillLevel()">Update</button>
+        <a href="/SkillLevel" class="btn btn-sm btn-primary">Back To List</a>
     </div>
 </div>
 
@@ -61,6 +62,13 @@
 
     function updateSkillLevel() {
             debugger;
+          var skillLevelNameCheck = $("#SkillLevelName").val();
+
+          if (!skillLevelNameCheck) {
+            alert("Skill Level Name is required !");
+            return;
+          }
+
         const userCode = localStorage.getItem("userCode");
 
         const updatedSkillLevel = {

@@ -129,51 +129,105 @@ namespace EPYTST.Application.Services
 
         public async Task<List<UserBySkillVM>> GetBySkillId(int skillId)
         {
-            string query = @"
-        SELECT 
-            lu.UserCode,
-            lu.UserName,
-            lu.Name AS EmployeeName,
-            lu.Email,
-            lu.IsAdmin,
-            lu.IsActive,
-            lu.CompanyID,
-            s.SkillName,
-            sl.Name AS SkillLeveName,
-            uism.HandsOnExperienceFromDate,
-            uism.HandsOnExperienceToDate,
-
-            -- Experience Duration (only show non-zero parts, or default to '0')
-            CASE 
-                WHEN uism.HandsOnExperienceFromDate IS NOT NULL AND uism.HandsOnExperienceToDate IS NOT NULL THEN
-                (
+            string query = "";
+                
+            if(skillId > 0)
+            {
+                query = @"
                     SELECT 
-                        CASE 
-                            WHEN years + months + days = 0 THEN '0'
-                            ELSE
-                                CONCAT(
-                                    CASE WHEN years > 0 THEN CAST(years AS VARCHAR) + ' year(s) ' ELSE '' END,
-                                    CASE WHEN months > 0 THEN CAST(months AS VARCHAR) + ' month(s) ' ELSE '' END,
-                                    CASE WHEN days > 0 THEN CAST(days AS VARCHAR) + ' day(s)' ELSE '' END
-                                )
-                        END
-                    FROM (
-                        SELECT 
-                            DATEDIFF(YEAR, uism.HandsOnExperienceFromDate, uism.HandsOnExperienceToDate) AS years,
-                            DATEDIFF(MONTH, uism.HandsOnExperienceFromDate, uism.HandsOnExperienceToDate) % 12 AS months,
-                            DATEDIFF(DAY, DATEADD(MONTH, DATEDIFF(MONTH, uism.HandsOnExperienceFromDate, uism.HandsOnExperienceToDate), uism.HandsOnExperienceFromDate), uism.HandsOnExperienceToDate) AS days
-                    ) AS duration
-                )
-                ELSE 'N/A'
-            END AS ExperienceDuration
+                        lu.UserCode,
+                        lu.UserName,
+                        lu.Name AS EmployeeName,
+                        lu.Email,
+                        lu.IsAdmin,
+                        lu.IsActive,
+                        lu.CompanyID,
+                        s.SkillName,
+                        sl.Name AS SkillLeveName,
+                        uism.HandsOnExperienceFromDate,
+                        uism.HandsOnExperienceToDate,
 
-        FROM 
-            EPYHRMS..LoginUser AS lu
-            INNER JOIN UserInformationSkillMap AS uism ON lu.UserCode = uism.UserCode
-            INNER JOIN Skill s ON s.SkillId = uism.SkillId
-            INNER JOIN SkillLevel sl ON sl.SkillLevelId = uism.SkillLevelId
-        WHERE 
-            (@skillId = 0 OR s.SkillId = @skillId);";
+                        -- Experience Duration (only show non-zero parts, or default to '0')
+                        CASE 
+                            WHEN uism.HandsOnExperienceFromDate IS NOT NULL AND uism.HandsOnExperienceToDate IS NOT NULL THEN
+                            (
+                                SELECT 
+                                    CASE 
+                                        WHEN years + months + days = 0 THEN '0'
+                                        ELSE
+                                            CONCAT(
+                                                CASE WHEN years > 0 THEN CAST(years AS VARCHAR) + ' year(s) ' ELSE '' END,
+                                                CASE WHEN months > 0 THEN CAST(months AS VARCHAR) + ' month(s) ' ELSE '' END,
+                                                CASE WHEN days > 0 THEN CAST(days AS VARCHAR) + ' day(s)' ELSE '' END
+                                            )
+                                    END
+                                FROM (
+                                    SELECT 
+                                        DATEDIFF(YEAR, uism.HandsOnExperienceFromDate, uism.HandsOnExperienceToDate) AS years,
+                                        DATEDIFF(MONTH, uism.HandsOnExperienceFromDate, uism.HandsOnExperienceToDate) % 12 AS months,
+                                        DATEDIFF(DAY, DATEADD(MONTH, DATEDIFF(MONTH, uism.HandsOnExperienceFromDate, uism.HandsOnExperienceToDate), uism.HandsOnExperienceFromDate), uism.HandsOnExperienceToDate) AS days
+                                ) AS duration
+                            )
+                            ELSE 'N/A'
+                        END AS ExperienceDuration
+
+                    FROM 
+                        EPYHRMS..LoginUser AS lu
+                        INNER JOIN UserInformationSkillMap AS uism ON lu.UserCode = uism.UserCode
+                        INNER JOIN Skill s ON s.SkillId = uism.SkillId
+                        INNER JOIN SkillLevel sl ON sl.SkillLevelId = uism.SkillLevelId
+                    WHERE 
+                        (@skillId = 0 OR s.SkillId = @skillId);";
+
+            }
+            else
+            {
+                query = @"
+                    SELECT 
+                        lu.UserCode,
+                        lu.UserName,
+                        lu.Name AS EmployeeName,
+                        lu.Email,
+                        lu.IsAdmin,
+                        lu.IsActive,
+                        lu.CompanyID,
+                        s.SkillName,
+                        sl.Name AS SkillLeveName,
+                        uism.HandsOnExperienceFromDate,
+                        uism.HandsOnExperienceToDate,
+
+                        -- Experience Duration (only show non-zero parts, or default to '0')
+                        CASE 
+                            WHEN uism.HandsOnExperienceFromDate IS NOT NULL AND uism.HandsOnExperienceToDate IS NOT NULL THEN
+                            (
+                                SELECT 
+                                    CASE 
+                                        WHEN years + months + days = 0 THEN '0'
+                                        ELSE
+                                            CONCAT(
+                                                CASE WHEN years > 0 THEN CAST(years AS VARCHAR) + ' year(s) ' ELSE '' END,
+                                                CASE WHEN months > 0 THEN CAST(months AS VARCHAR) + ' month(s) ' ELSE '' END,
+                                                CASE WHEN days > 0 THEN CAST(days AS VARCHAR) + ' day(s)' ELSE '' END
+                                            )
+                                    END
+                                FROM (
+                                    SELECT 
+                                        DATEDIFF(YEAR, uism.HandsOnExperienceFromDate, uism.HandsOnExperienceToDate) AS years,
+                                        DATEDIFF(MONTH, uism.HandsOnExperienceFromDate, uism.HandsOnExperienceToDate) % 12 AS months,
+                                        DATEDIFF(DAY, DATEADD(MONTH, DATEDIFF(MONTH, uism.HandsOnExperienceFromDate, uism.HandsOnExperienceToDate), uism.HandsOnExperienceFromDate), uism.HandsOnExperienceToDate) AS days
+                                ) AS duration
+                            )
+                            ELSE 'N/A'
+                        END AS ExperienceDuration
+
+                    FROM 
+                        EPYHRMS..LoginUser AS lu
+                        INNER JOIN UserInformationSkillMap AS uism ON lu.UserCode = uism.UserCode
+                        INNER JOIN Skill s ON s.SkillId = uism.SkillId
+                        INNER JOIN SkillLevel sl ON sl.SkillLevelId = uism.SkillLevelId
+                    ";
+            }
+
 
             var items = await _dbService.GetDataAsync<UserBySkillVM>(query, new { skillId });
 
