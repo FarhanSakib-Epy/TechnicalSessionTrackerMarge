@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -138,6 +138,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Contollers\\HomeController.cs",
+              "RelativeDocumentMoniker": "EPYTST.API\\Contollers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Contollers\\HomeController.cs",
+              "RelativeToolTip": "EPYTST.API\\Contollers\\HomeController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAnwFQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T07:17:48.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Views\\Skill\\Details.cshtml",
@@ -147,19 +160,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-28T05:08:25.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Contollers\\HomeController.cs",
-              "RelativeDocumentMoniker": "EPYTST.API\\Contollers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\farhan.sakib\\Desktop\\GitProject\\TechnicalSessionTrackerMarge\\TechnicalSessionTrackerMarge\\EPYTST.API\\Contollers\\HomeController.cs",
-              "RelativeToolTip": "EPYTST.API\\Contollers\\HomeController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAnwFkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T07:17:48.323Z",
               "EditorCaption": ""
             },
             {
