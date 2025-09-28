@@ -84,3 +84,4 @@ publish/
 /EPYTST.Infrastructure/obj/Debug/net8.0/EPYTST.Infrastructure.dll
 /EPYTST.Infrastructure/obj/Debug/net8.0/EPYTST.Infrastructure.pdb
 /EPYTST.Infrastructure/obj/Debug/net8.0/refint/EPYTST.Infrastructure.dll
+/EPYTST.Infrastructure/obj/Debug/net8.0/EPYTST.Infrastructure.AssemblyInfo.cs
