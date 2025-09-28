@@ -72,3 +72,15 @@ publish/
 /EPYTST.Application/obj/Debug/net8.0/EPYTST.Application.AssemblyInfo.cs
 /EPYTST.Application/obj/Debug/net8.0/EPYTST.Application.AssemblyInfoInputs.cache
 /EPYTST.Application/obj/Debug/net8.0/EPYTST.Application.csproj.AssemblyReference.cache
+/EPYTST.Application/obj/Debug/net8.0/EPYTST.Application.dll
+/EPYTST.Application/obj/Debug/net8.0/EPYTST.Application.pdb
+/.vs/EPYTST/v17/.suo
+/.vs/EPYTST/v17/DocumentLayout.backup.json
+/.vs/EPYTST/v17/DocumentLayout.json
+/EPYTST.Infrastructure/bin/Debug/net8.0/EPYTST.Infrastructure.dll
+/EPYTST.Infrastructure/bin/Debug/net8.0/EPYTST.Infrastructure.pdb
+/EPYTST.Infrastructure/obj/Debug/net8.0/ref/EPYTST.Infrastructure.dll
+/EPYTST.Infrastructure/obj/Debug/net8.0/EPYTST.Infrastructure.AssemblyInfoInputs.cache
+/EPYTST.Infrastructure/obj/Debug/net8.0/EPYTST.Infrastructure.dll
+/EPYTST.Infrastructure/obj/Debug/net8.0/EPYTST.Infrastructure.pdb
+/EPYTST.Infrastructure/obj/Debug/net8.0/refint/EPYTST.Infrastructure.dll
