@@ -1,6 +1,7 @@
 # Build results
 bin/
 obj/
+/EPYTST.API/obj/*
 
 # VS User-specific files
 .vs/
@@ -51,3 +52,23 @@ _ReSharper*/
 
 # Deployment
 publish/
+/EPYTST.API/obj/Debug/net8.0/EPYTST.API.AssemblyInfo.cs
+/EPYTST.API/obj/Debug/net8.0/EPYTST.API.AssemblyInfoInputs.cache
+/EPYTST.API/obj/Debug/net8.0/EPYTST.API.csproj.AssemblyReference.cache
+/EPYTST.API/obj/Debug/net8.0/apphost.exe
+/EPYTST.API/obj/Debug/net8.0/EPYTST.API.dll
+/EPYTST.API/obj/Debug/net8.0/EPYTST.API.pdb
+/EPYTST.API/obj/Debug/net8.0/rjsmcshtml.dswa.cache.json
+/EPYTST.API/obj/Debug/net8.0/rjsmrazor.dswa.cache.json
+/EPYTST.API/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/EPYTST.API/obj/Debug/net8.0/staticwebassets.build.json
+/EPYTST.API/obj/Debug/net8.0/staticwebassets.build.json.cache
+/EPYTST.Application/bin/Debug/net8.0/EPYTST.Application.dll
+/EPYTST.Application/bin/Debug/net8.0/EPYTST.Application.pdb
+/EPYTST.Application/bin/Debug/net8.0/EPYTST.Infrastructure.dll
+/EPYTST.Application/bin/Debug/net8.0/EPYTST.Infrastructure.pdb
+/EPYTST.Application/obj/Debug/net8.0/ref/EPYTST.Application.dll
+/EPYTST.Application/obj/Debug/net8.0/refint/EPYTST.Application.dll
+/EPYTST.Application/obj/Debug/net8.0/EPYTST.Application.AssemblyInfo.cs
+/EPYTST.Application/obj/Debug/net8.0/EPYTST.Application.AssemblyInfoInputs.cache
+/EPYTST.Application/obj/Debug/net8.0/EPYTST.Application.csproj.AssemblyReference.cache
