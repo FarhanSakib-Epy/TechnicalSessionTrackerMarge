@@ -850,6 +850,29 @@
         }
       }
     },
+    "/Skill/Details/{id}": {
+      "get": {
+        "tags": [
+          "Skill"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Skill/Add": {
       "post": {
         "tags": [
@@ -1104,6 +1127,29 @@
       }
     },
     "/SkillLevel/Edit/{id}": {
+      "get": {
+        "tags": [
+          "SkillLevel"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/SkillLevel/Details/{id}": {
       "get": {
         "tags": [
           "SkillLevel"

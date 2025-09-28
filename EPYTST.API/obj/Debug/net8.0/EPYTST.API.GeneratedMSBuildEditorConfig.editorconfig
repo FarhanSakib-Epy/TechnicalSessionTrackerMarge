@@ -44,6 +44,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tpbGxMZXZlbFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/farhan.sakib/Desktop/GitProject/TechnicalSessionTrackerMarge/TechnicalSessionTrackerMarge/EPYTST.API/Views/SkillLevel/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tpbGxMZXZlbFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/farhan.sakib/Desktop/GitProject/TechnicalSessionTrackerMarge/TechnicalSessionTrackerMarge/EPYTST.API/Views/SkillLevel/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tpbGxMZXZlbFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -58,6 +62,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/farhan.sakib/Desktop/GitProject/TechnicalSessionTrackerMarge/TechnicalSessionTrackerMarge/EPYTST.API/Views/Skill/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tpbGxcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/farhan.sakib/Desktop/GitProject/TechnicalSessionTrackerMarge/TechnicalSessionTrackerMarge/EPYTST.API/Views/Skill/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tpbGxcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/farhan.sakib/Desktop/GitProject/TechnicalSessionTrackerMarge/TechnicalSessionTrackerMarge/EPYTST.API/Views/Skill/Edit.cshtml]

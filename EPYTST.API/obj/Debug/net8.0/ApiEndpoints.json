@@ -1155,6 +1155,22 @@
   },
   {
     "ContainingType": "EPYTST.API.Contollers.SkillController",
+    "Method": "Details",
+    "RelativePath": "Skill/Details/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EPYTST.API.Contollers.SkillController",
     "Method": "Edit",
     "RelativePath": "Skill/Edit/{id}",
     "HttpMethod": "GET",
@@ -1187,6 +1203,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EPYTST.API.Contollers.SkillLevelController",
+    "Method": "Details",
+    "RelativePath": "SkillLevel/Details/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

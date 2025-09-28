@@ -61,6 +61,7 @@
                         <td>${skill.isActive ? "Yes" : "No"}</td>
                         <td>
                          <a href="/Skill/Edit/${skill.skillId}" class="btn btn-warning btn-sm me-1">Edit</a>
+                          <a href="/Skill/Details/${skill.skillId}" class="btn btn-primary btn-sm me-1">Details</a>
                           <button class="btn btn-danger btn-sm" onclick="deleteSkill(${skill.skillId})">Delete</button>
                        </td>
                     </tr>`;

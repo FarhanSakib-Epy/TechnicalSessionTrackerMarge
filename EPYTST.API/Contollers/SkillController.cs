@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using EPYTST.Application.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 
 namespace EPYTST.API.Contollers
 {
@@ -8,12 +9,14 @@ namespace EPYTST.API.Contollers
         private readonly ILogger<HomeController> _logger;
         private readonly HttpClient _httpClient;
         private readonly string _baseApiUrl;
+        private readonly ISkillService _SkillService;
 
-        public SkillController(ILogger<HomeController> logger, IHttpClientFactory httpClientFactory, IConfiguration configuration)
+        public SkillController(ILogger<HomeController> logger, IHttpClientFactory httpClientFactory, ISkillService SkillService, IConfiguration configuration)
         {
             _logger = logger;
             _httpClient = httpClientFactory.CreateClient();
             _baseApiUrl = configuration["ApiSettings:LoginUrl"];
+            this._SkillService = SkillService;
         }
 
         [HttpGet("")]
@@ -35,6 +38,16 @@ namespace EPYTST.API.Contollers
 
             return View();
         }
+
+        [HttpGet("Details/{id}")]
+        public IActionResult Details(int id)
+        {
+            var skill = _SkillService.GetByIdAsync(id.ToString());
+
+            return View(skill.Result);
+        }
+        
+
 
     }
 }
