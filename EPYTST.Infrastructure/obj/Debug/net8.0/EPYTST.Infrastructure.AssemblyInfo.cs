@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EPYTST.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e81cb416c00829510514e946dd99d5a47ffb8c30")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8487d535fac71132d71672bdacb19df6c850e3e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("EPYTST.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EPYTST.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

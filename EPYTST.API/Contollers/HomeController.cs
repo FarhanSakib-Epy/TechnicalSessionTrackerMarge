@@ -44,10 +44,8 @@ namespace EPYTST.API.Contollers
                 return View();
             }
 
-
             //string url = "https://localhost:44302/api/LoginUser/LogIn";
             var url = $"{_baseApiUrl}api/LoginUser/LogIn?username={logIn.UserName}&password={logIn.Password}";
-
 
             var loginRequest = new LogIn
             {
@@ -101,8 +99,5 @@ namespace EPYTST.API.Contollers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-
-
-
     }
 }
