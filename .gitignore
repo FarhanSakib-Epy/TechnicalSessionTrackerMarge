@@ -85,3 +85,5 @@ publish/
 /EPYTST.Infrastructure/obj/Debug/net8.0/EPYTST.Infrastructure.pdb
 /EPYTST.Infrastructure/obj/Debug/net8.0/refint/EPYTST.Infrastructure.dll
 /EPYTST.Infrastructure/obj/Debug/net8.0/EPYTST.Infrastructure.AssemblyInfo.cs
+/.vs/EPYTST/CopilotIndices/17.14.786.1071/CodeChunks.db-shm
+/.vs/EPYTST/CopilotIndices/17.14.786.1071/SemanticSymbols.db-shm
