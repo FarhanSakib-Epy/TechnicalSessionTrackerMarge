@@ -14,7 +14,7 @@
         public string? PhoneNumber { get; set; }
         public string? Designation { get; set; }
         public string? DepartmentName { get; set; }
-        public string? ProfileImagePath { get; set; }
+        public string? ProfileImageBase64 { get; set; }
 
     }
 }

@@ -2311,6 +2311,14 @@
           "isAdmin": {
             "type": "boolean"
           },
+          "employeeImage": {
+            "type": "string",
+            "nullable": true
+          },
+          "profileImageBase64": {
+            "type": "string",
+            "nullable": true
+          },
           "isModified": {
             "type": "boolean",
             "readOnly": true

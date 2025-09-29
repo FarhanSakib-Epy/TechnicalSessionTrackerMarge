@@ -28,6 +28,7 @@ namespace EPYTST.API.Contollers
         public IActionResult Index()
         {
             TempData["User"] = "null";
+            HttpContext.Session.Remove("ProfileImageBase64");
             return View();
         }
         public IActionResult MyProfile()
@@ -77,9 +78,11 @@ namespace EPYTST.API.Contollers
                 user.PhoneNumber = isAdminLocal.PhoneNumber;
                 user.Designation = isAdminLocal.Designation;
                 user.DepartmentName = isAdminLocal.DepartmentName;
-                user.ProfileImagePath = isAdminLocal.ProfileImagePath;
+                HttpContext.Session.SetString("ProfileImageBase64", user.ProfileImageBase64);
 
-                TempData["User"] = JsonSerializer.Serialize(user);
+                user.ProfileImageBase64 = string.Empty;
+
+                 TempData["User"] = JsonSerializer.Serialize(user);
                 return RedirectToAction("Index", "Admin");
             }
             else

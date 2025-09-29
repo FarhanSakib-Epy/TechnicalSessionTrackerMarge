@@ -3,20 +3,29 @@
     ViewData["Title"] = "My Profile";
 }
 
+
 <link href="~/assets/css/bootstrap.min.css" rel="stylesheet" />
 <div class="container mt-4">
     <table class="table table-bordered table-striped">
         <tbody>
             <tr>
-                <td><strong>Name: </strong></td>
+                <td style="width: 200px;">
+                    @{
+                        var base64Image = Context.Session.GetString("ProfileImageBase64");
+                        <img src="@base64Image" alt="Image" style="width:200px;height:200px;" class="img-thumbnail" />
+                    }
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 200px;"><strong>Name: </strong></td>
                 <td id="nameCell"></td>
             </tr>
             <tr>
-                <td><strong>Designation: </strong></td>
+                <td style="width: 200px;"><strong>Designation: </strong></td>
                 <td id="designationCell"></td>
             </tr>
             <tr>
-                <td><strong>Department Name: </strong></td>
+                <td style="width: 200px;"><strong>Department Name: </strong></td>
                 <td id="departmentNameCell"></td>
             </tr>
         </tbody>

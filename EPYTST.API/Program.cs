@@ -25,6 +25,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddMemoryCache(opt => { ////for in memory caching
     opt.SizeLimit = 100; ///// Set the caching key limit
 });
+builder.Services.AddSession();
 
 #region Swagger config
 
@@ -223,7 +224,7 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-
+app.UseSession();
 
 app.Run();
 

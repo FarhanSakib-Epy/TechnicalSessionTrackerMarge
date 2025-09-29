@@ -15,7 +15,10 @@ namespace EPYTST.Application.Entities
         public string? Password { get; set; }
         public string? Email { get; set; }
         public bool IsAdmin { get; set; }
-        
+        [Write(false)]
+        public string? EmployeeImage { get; set; }
+        [Write(false)]
+        public string? ProfileImageBase64 { get; set; }
         //#region Additional Properties
         [Write(false)]
         public override bool IsModified => EntityState == System.Data.Entity.EntityState.Modified || UserCode != 0;

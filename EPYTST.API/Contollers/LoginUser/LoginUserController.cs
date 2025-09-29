@@ -61,6 +61,10 @@ namespace EPYTST.API.Contollers.LoginUserAPI
                 PropertyNameCaseInsensitive = true
             });
 
+            var base64String = user.EmployeeImage; // e.g. without "data:image/png;base64,"
+            var imageSrc = $"data:image/png;base64,{base64String}";
+            user.ProfileImageBase64 = imageSrc;
+
             if (user == null)
                 throw new ItemNotFoundException(ErrorKeys.NoRecord);
 
