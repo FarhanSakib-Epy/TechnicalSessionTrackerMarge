@@ -172,6 +172,9 @@
     <script>
         $(document).ready(function () {
                dashbordData();
+               $("#dashSkillData").hide();
+               $("#dashSkillLevelData").hide();
+
             // debugger;
              var userName = localStorage.getItem("userName");
                  $("#userNameId").text(userName);
@@ -211,6 +214,8 @@
             //menu logic
             if (isAdmin == "true") {
             // Hide the Skill menu if NOT admin
+                 $("#dashSkillData").show();
+                     $("#dashSkillLevelData").show();
             var skillMenu = document.getElementById("skillMenuForAdmin");
             if (skillMenu) {
               //  skillMenu.style.display = "none";
