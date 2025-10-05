@@ -127,3 +127,4 @@ publish/
 /EPYTST.API/obj/Release/net8.0/refint/EPYTST.API.dll
 /EPYTST.Application/obj/Release/net8.0/ref/EPYTST.Application.dll
 /EPYTST.Infrastructure/obj/Release/net8.0/ref/EPYTST.Infrastructure.dll
+/.vs/EPYTST/v17/HierarchyCache.v1.txt
